@@ -3,18 +3,17 @@
 #
 
 # Name of your site (displayed in the header)
-name: Kiko Now
+name: HyoJin's Blog
 
 # Short bio or description (displayed in the header)
-description: Web Developer from Somewhere
+description: Computer Science 개념 정리
 
 #
 # Flags below are optional
 #
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: https://raw.githubusercontent.com/aweekj/kiko-now/master/images/jekyll-logo.png
-
+avatar: https://github.com/an-hyojin/an-hyojin.github.io/blob/master/images/blog-logo.png
 
 # Tabs in header. There are 'Blog', 'About', 'Archive', 'Tags'
 # and URL Link(e.g. 'Theme' tab below) tabs. If you don't need one, just delete
@@ -28,9 +27,7 @@ navigation:
     url: /archive
   - name: Tags
     url: /tags
-  - name: Theme
-    url: https://github.com/AWEEKJ/kiko-now
-
+ 
 # Pagination
 paginate: 5
 
@@ -38,10 +35,10 @@ paginate: 5
 footer-links:
   behance: # https://www.behance.net/<username>
   dribbble:
-  email:
+  email: ahj1848@gmail.com
   facebook:
   flickr:
-  github: AWEEKJ/kiko-now
+  github: an-hyojin
   googleplus: # anything in your profile username that comes after plus.google.com/
   instagram:
   linkedin:
@@ -49,11 +46,11 @@ footer-links:
   rss: # just type anything here for a working RSS icon
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   tumblr: # https://<username>.tumblr.com
-  twitter: jekyllrb
+  twitter: 
   youtube: # channel/<your_long_string> or user/<user-name>
 
 # Text under the icons in footer
-footer-text: © 2017 Kiko Now
+footer-text: © HyoJin's Blog 2020
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
 # You can find your shortname on the Settings page of your Disqus account
@@ -64,13 +61,13 @@ google_analytics:
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
-url:
+url: http://an-hyojin.github.io
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
 # and NOT your User repository (http://yourusername.github.io)
 # then add in the baseurl here, like this: "/repository-name"
-baseurl:
+baseurl: https://github.com/an-hyojin/an-hyojin.github.io
 
 #
 # !! You don't need to change any of the configuration flags below !!

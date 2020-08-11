@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-08-12T01:45:55+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">HyoJin’s Blog</title><subtitle>Computer Science 개념 정리</subtitle><entry><title type="html">A Full and Comprehensive Style Test(Korean ver.)</title><link href="http://localhost:4000/style-test-ko/" rel="alternate" type="text/html" title="A Full and Comprehensive Style Test(Korean ver.)" /><published>2016-08-14T00:00:00+09:00</published><updated>2016-08-14T00:00:00+09:00</updated><id>http://localhost:4000/style-test-ko</id><content type="html" xml:base="http://localhost:4000/style-test-ko/">&lt;p&gt;이 글은 스타일을 모아둔 것입니다. 소스 코드를 확인하여 스타일을 적용하는 방법을 알아보세요.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;1-제목&quot;&gt;1. 제목&lt;/h2&gt;
+
+&lt;h1 id=&quot;제목-1&quot;&gt;제목 1&lt;/h1&gt;
+
+&lt;h2 id=&quot;제목-2&quot;&gt;제목 2&lt;/h2&gt;
+
+&lt;h3 id=&quot;제목-3&quot;&gt;제목 3&lt;/h3&gt;
+
+&lt;h4 id=&quot;제목-4&quot;&gt;제목 4&lt;/h4&gt;
+
+&lt;h5 id=&quot;제목-5&quot;&gt;제목 5&lt;/h5&gt;
+
+&lt;h6 id=&quot;제목-6&quot;&gt;제목 6&lt;/h6&gt;
+
+&lt;h3 id=&quot;1-1-제목-정렬&quot;&gt;1-1. 제목 정렬&lt;/h3&gt;
+
+&lt;h5 id=&quot;왼쪽기본&quot;&gt;왼쪽(기본)&lt;/h5&gt;
+
+&lt;h5 class=&quot;center&quot; id=&quot;가운데&quot;&gt;가운데&lt;/h5&gt;
+
+&lt;h5 class=&quot;right&quot; id=&quot;오른쪽&quot;&gt;오른쪽&lt;/h5&gt;
+
+&lt;h2 id=&quot;2-본문&quot;&gt;2. 본문&lt;/h2&gt;
+
+&lt;p&gt;탄핵소추의 의결을 받은 자는 탄핵심판이 있을 때까지 &lt;a href=&quot;#&quot;&gt;링크&lt;/a&gt; 그 권한행사가 정지된다. 제2항과 제3항의 처분에 대하여는 &lt;strong&gt;굵게&lt;/strong&gt; 법원에 제소할 수 없다. 선거와 국민투표의 공정한 관리 &lt;em&gt;기울임&lt;/em&gt; 및 정당에 관한 사무를 처리하기 위하여 5&lt;sup&gt;3&lt;/sup&gt; = 125 선거관리위원회를 둔다. 국무총리는 대통령을 보좌하며, H&lt;sub&gt;2&lt;/sub&gt;O 행정에 관하여 대통령의 명을 받아 행정각부를 통할한다. 정당은 법률이 정하는 바에 의하여 &lt;u&gt;밑줄&lt;/u&gt; 국가의 보호를 받으며, 국가는 법률이 정하는 바에 의하여 &lt;code class=&quot;highlighter-rouge&quot;&gt;파일명&lt;/code&gt; 정당운영에 필요한 자금을 보조할 수 있다. 모든 국민은 종교의 자유를 가진다. 국회의원은 법률이 정하는 직을 겸할 수 없다. 감사원은 &lt;del&gt;가운데 줄&lt;/del&gt; 세입·세출의 결산을 매년 검사하여 대통령과 차년도국회에 &lt;mark&gt;형광펜&lt;/mark&gt; 그 결과를 보고하여야 한다.&lt;/p&gt;
+
+&lt;h2 id=&quot;3-이미지&quot;&gt;3. 이미지&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://placehold.it/800x400&quot; alt=&quot;큰 이미지&quot; /&gt;
+&lt;img src=&quot;http://placehold.it/400x200&quot; alt=&quot;중간 이미지&quot; /&gt;
+&lt;img src=&quot;http://placehold.it/200x200&quot; alt=&quot;작은 이미지&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;3-1-이미지-가운데-정렬&quot;&gt;3-1. 이미지 가운데 정렬&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;http://placehold.it/200x200&quot; alt=&quot;이미지 가운데 정렬&quot; class=&quot;center-image&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;4-인용구&quot;&gt;4. 인용구&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;나는 헌법을 준수하고 국가를 보위하며 조국의 평화적 통일과 국민의 자유와 복리의 증진 및 민족문화의 창달에 노력하여 대통령으로서의 직책을 성실히 수행할 것을 국민 앞에 엄숙히 선서합니다. 모든 국민은 통신의 비밀을 침해받지 아니한다. 국회의원은 법률이 정하는 직을 겸할 수 없다. 국회는 헌법 또는 법률에 특별한 규정이 없는 한 재적의원 과반수의 출석과 출석의원 과반수의 찬성으로 의결한다. 가부동수인 때에는 부결된 것으로 본다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;5-리스트&quot;&gt;5. 리스트&lt;/h2&gt;
+
+&lt;h3 id=&quot;순서가-없는-리스트&quot;&gt;순서가 없는 리스트&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;국가원로자문회의의 조직·직무범위 기타 필요한 사항은 법률로 정한다.&lt;/li&gt;
+  &lt;li&gt;모든 국민은 법률이 정하는 바에 의하여 국방의 의무를 진다.&lt;/li&gt;
+  &lt;li&gt;탄핵소추의 의결을 받은 자는 탄핵심판이 있을 때까지 그 권한행사가 정지된다.
+    &lt;ol&gt;
+      &lt;li&gt;국회는 의원의 자격을 심사하며, 의원을 징계할 수 있다. 국가는 모성의 보호를 위하여 노력하여야 한다.&lt;/li&gt;
+      &lt;li&gt;공개하지 아니한 회의내용의 공표에 관하여는 법률이 정하는 바에 의한다.&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;국회는 의장 1인과 부의장 2인을 선출한다. 정부는 회계연도마다 예산안을 편성하여 회계연도 개시 90일전까지 국회에 제출하고, 국회는 회계연도 개시 30일전까지 이를 의결하여야 한다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;순서가-있는-리스트&quot;&gt;순서가 있는 리스트&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;대통령으로 선거될 수 있는 자는 국회의원의 피선거권이 있고 선거일 현재 40세에 달하여야 한다.&lt;/li&gt;
+  &lt;li&gt;각급 선거관리위원회는 선거인명부의 작성등 선거사무와 국민투표사무에 관하여 관계 행정기관에 필요한 지시를 할 수 있다.&lt;/li&gt;
+  &lt;li&gt;예비비는 총액으로 국회의 의결을 얻어야 한다. 예비비의 지출은 차기국회의 승인을 얻어야 한다.
+    &lt;ul&gt;
+      &lt;li&gt;국가는 농지에 관하여 경자유전의 원칙이 달성될 수 있도록 노력하여야 하며, 농지의 소작제도는 금지된다.&lt;/li&gt;
+      &lt;li&gt;모든 국민은 법률이 정하는 바에 의하여 납세의 의무를 진다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;형사피의자 또는 형사피고인으로서 구금되었던 자가 법률이 정하는 불기소처분을 받거나 무죄판결을 받은 때에는 법률이 정하는 바에 의하여 국가에 정당한 보상을 청구할 수 있다.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;정의-리스트&quot;&gt;정의 리스트&lt;/h3&gt;
+
+&lt;dl&gt;
+  &lt;dt&gt;대통령은 제3항과 제4&lt;/dt&gt;
+  &lt;dd&gt;국회의원은 그 지위를 남용하여 국가·공공단체 또는 기업체와의 계약이나 그 처분에 의하여 재산상의 권리·이익 또는 직위를 취득하거나 타인을 위하여 그 취득을 알선할 수 없다.&lt;/dd&gt;
+  &lt;dt&gt;체포·구속·압수 또&lt;/dt&gt;
+  &lt;dd&gt;헌법개정안은 국회가 의결한 후 30일 이내에 국민투표에 붙여 국회의원선거권자 과반수의 투표와 투표자 과반수의 찬성을 얻어야 한다.&lt;/dd&gt;
+&lt;/dl&gt;
+
+&lt;h2 id=&quot;6-표&quot;&gt;6. 표&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;상단1&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;상단2&lt;/th&gt;
+      &lt;th style=&quot;text-align: right&quot;&gt;상단3&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;셀1&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;셀2&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;셀3&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;셀4&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;셀5&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;셀6&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;셀1&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;셀2&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;셀3&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;셀4&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;셀5&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;셀6&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+  &lt;tfoot&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;하단1&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;하단2&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;하단3&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tfoot&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;7-코드-스타일&quot;&gt;7. 코드 스타일&lt;/h2&gt;
+
+&lt;h3 id=&quot;코드-하이라이팅&quot;&gt;코드 하이라이팅&lt;/h3&gt;
+
+&lt;div class=&quot;language-css highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nf&quot;&gt;#container&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;float&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;left&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;margin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;-240px&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;100%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;일반적인-코드&quot;&gt;일반적인 코드&lt;/h3&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;div id=&quot;awesome&quot;&amp;gt;
+  &amp;lt;p&amp;gt;This is great isn't it?&amp;lt;/p&amp;gt;
+&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;이 문서는 &lt;a href=&quot;http://guny.kr/stuff/klorem/&quot;&gt;한글 Lorem Ipsum&lt;/a&gt;으로 생성되었습니다.&lt;/p&gt;</content><author><name></name></author><category term="샘플 포스트" /><category term="테스트" /><category term="스타일" /><summary type="html">이 글은 스타일을 모아둔 것입니다. 소스 코드를 확인하여 스타일을 적용하는 방법을 알아보세요.</summary></entry></feed>
