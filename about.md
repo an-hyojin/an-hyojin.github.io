@@ -40,7 +40,7 @@ permalink: /about/
 #### Study
 * **2018.03~2018.06** Web Study - ProBrain 
 * **2018.07~2018.08** 2018 하계 모여서 각자 스터디 진행
-* **2019.07~2019.08** 2019 하계 모여서 각자 스터디 진행 - <a link="http://blog.daum.net/hyooii3/">블로그</a> 
+* **2019.07~2019.08** 2019 하계 모여서 각자 스터디 진행 - <a href="http://blog.daum.net/hyooii3/">블로그</a> 
 * **2019.07~2019.10** Effective Java Study - 조슈아 블로크 
 
 ### Contact me

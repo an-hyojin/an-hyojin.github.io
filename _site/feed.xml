@@ -1,4 +1,55 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-08-12T03:27:06+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">HyoJin’s Blog</title><subtitle>Computer Science 개념 정리</subtitle><entry><title type="html">A Full and Comprehensive Style Test(Korean ver.)</title><link href="http://localhost:4000/style-test-ko/" rel="alternate" type="text/html" title="A Full and Comprehensive Style Test(Korean ver.)" /><published>2016-08-14T00:00:00+09:00</published><updated>2016-08-14T00:00:00+09:00</updated><id>http://localhost:4000/style-test-ko</id><content type="html" xml:base="http://localhost:4000/style-test-ko/">&lt;p&gt;이 글은 스타일을 모아둔 것입니다. 소스 코드를 확인하여 스타일을 적용하는 방법을 알아보세요.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-08-13T17:04:15+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">HyoJin’s Blog</title><subtitle>Computer Science 개념 정리</subtitle><entry><title type="html">[OS]1. Operating System Overview</title><link href="http://localhost:4000/operating-system-01/" rel="alternate" type="text/html" title="[OS]1. Operating System Overview" /><published>2020-08-12T00:00:00+09:00</published><updated>2020-08-12T00:00:00+09:00</updated><id>http://localhost:4000/operating-system-01</id><content type="html" xml:base="http://localhost:4000/operating-system-01/">&lt;p&gt;운영체제 정리 첫 번째 글,&lt;br /&gt;
+Overview&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;1-operating-system-overview&quot;&gt;1. Operating System Overview&lt;/h2&gt;
+
+&lt;h3 id=&quot;운영체제란&quot;&gt;운영체제란?&lt;/h3&gt;
+
+&lt;p&gt;컴퓨터 시스템의 자원들을 효율적으로 관리하며, 사용자가 컴퓨터를 편리하고 효과적으로 사용할 수 있도록 환경을 제공하는 &lt;mark&gt;소프트웨어&lt;/mark&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;key-interfaces&quot;&gt;Key Interfaces&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Instruction Set Architecture(ISA)
+    &lt;ul&gt;
+      &lt;li&gt;컴퓨터가 따를 수 있는 언어 instruction&lt;/li&gt;
+      &lt;li&gt;하드웨어와 소프트웨어 사이의 경계 인터페이스&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Application Binary Interface(ABI)
+    &lt;ul&gt;
+      &lt;li&gt;프로그램간 휴대성을 위함&lt;/li&gt;
+      &lt;li&gt;System call Interface를 정의&lt;/li&gt;
+      &lt;li&gt;System Call: OS에게 프로그램이 해야할 일을 말하는 것&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Application programming Interface(API)
+    &lt;ul&gt;
+      &lt;li&gt;High-level language 라이브러리&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;kernel&quot;&gt;Kernel&lt;/h4&gt;
+&lt;p&gt;메인 메모리에 들어가 있는 Operating System - OS의 핵심적인 부분&lt;br /&gt;
+Program과 Data의 양이 많이 들어갈 수 있도록 OS의 핵심적 기능만 메인 메모리에 적재&lt;/p&gt;
+
+&lt;h4 id=&quot;programming-종류&quot;&gt;Programming 종류&lt;/h4&gt;
+&lt;h5 id=&quot;1-uni-programming&quot;&gt;1. Uni-programming&lt;/h5&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/20200812-os-01/Uni-programming.png&quot; alt=&quot;Uni-programming&quot; style=&quot;width:600px;height:auto;&quot; /&gt;
+프로세서(CPU)는 I/O가 종료될 때 까지 기다림. 한번에 한가지 프로그램만 실행&lt;/p&gt;
+
+&lt;h5 id=&quot;2-multi-programming&quot;&gt;2. Multi-programming&lt;/h5&gt;
+&lt;p&gt;&lt;img src=&quot;../images/20200812-os-01/Multi-programming.png&quot; alt=&quot;Multi-programming&quot; style=&quot;width:600px;height:auto;&quot; /&gt;
+I/O interrupt 발생 시 다른 Job으로 Switch하여 실행 &lt;br /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;장점: CPU가 기다리는 시간이 줄어듦&lt;/li&gt;
+  &lt;li&gt;단점: 큰 메모리 공간 필요&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="운영체제" /><category term="OS" /><summary type="html">운영체제 정리 첫 번째 글, Overview</summary></entry><entry><title type="html">A Full and Comprehensive Style Test(Korean ver.)</title><link href="http://localhost:4000/style-test-ko/" rel="alternate" type="text/html" title="A Full and Comprehensive Style Test(Korean ver.)" /><published>2016-08-14T00:00:00+09:00</published><updated>2016-08-14T00:00:00+09:00</updated><id>http://localhost:4000/style-test-ko</id><content type="html" xml:base="http://localhost:4000/style-test-ko/">&lt;p&gt;이 글은 스타일을 모아둔 것입니다. 소스 코드를 확인하여 스타일을 적용하는 방법을 알아보세요.&lt;/p&gt;
 
 &lt;hr /&gt;
 

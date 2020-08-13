@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-  <title>HyoJin's Blog – Computer Science 개념 정리</title>
+  <title>[OS]1. Operating System Overview – HyoJin's Blog – Computer Science 개념 정리</title>
 
       <meta charset="utf-8" />
     <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
@@ -9,11 +9,18 @@
     <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
 
     
-    <meta name="description" content="Computer Science 개념 정리">
-    <meta property="og:description" content="Computer Science 개념 정리" />
+    <meta name="description" content="운영체제 정리 첫 번째 글,
+Overview
+" />
+    <meta property="og:description" content="운영체제 정리 첫 번째 글,
+Overview
+" />
     
     <meta name="author" content="HyoJin's Blog" />
 
+    
+    <meta property="og:title" content="[OS]1. Operating System Overview" />
+    <meta property="twitter:title" content="[OS]1. Operating System Overview" />
     
   <!-- Async font loading -->
 <script>
@@ -77,93 +84,101 @@
 </div>
 
     <div id="main" role="main" class="container">
+      <article class="post">
+  <h1>[OS]1. Operating System Overview</h1>
+
+  <div>
+    <span class="date">
+      2020-08-12
+    </span>
+
+    <ul class="tag">
       
+      <li>
+        <a href="http://localhost:4000/tags#운영체제">
+          운영체제
+        </a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:4000/tags#OS">
+          OS
+        </a>
+      </li>
+      
+    </ul>
+  </div>
 
-<div class="posts">
-  
-    <article class="post">
-      <h1>
-        <a href="/operating-system-01/">[OS]1. Operating System Overview</a>
-      </h1>
-
-      <div>
-        <span class="date">
-          2020-08-12
-        </span>
-
-        <ul class="tag">
-          
-          <li>
-            <a href="http://localhost:4000/tags#운영체제">
-              운영체제
-            </a>
-          </li>
-          
-          <li>
-            <a href="http://localhost:4000/tags#OS">
-              OS
-            </a>
-          </li>
-          
-        </ul>
-      </div>
-
-      <div class="entry">
-        <p>운영체제 정리 첫 번째 글,<br />
+  <div class="entry">
+    <p>운영체제 정리 첫 번째 글,<br />
 Overview</p>
 
-      </div>
+<hr />
 
-      <a href="/operating-system-01/" class="read-more">Read More</a>
-    </article>
+<h2 id="1-operating-system-overview">1. Operating System Overview</h2>
+
+<h3 id="운영체제란">운영체제란?</h3>
+
+<p>컴퓨터 시스템의 자원들을 효율적으로 관리하며, 사용자가 컴퓨터를 편리하고 효과적으로 사용할 수 있도록 환경을 제공하는 <mark>소프트웨어</mark></p>
+
+<h4 id="key-interfaces">Key Interfaces</h4>
+
+<ul>
+  <li>Instruction Set Architecture(ISA)
+    <ul>
+      <li>컴퓨터가 따를 수 있는 언어 instruction</li>
+      <li>하드웨어와 소프트웨어 사이의 경계 인터페이스</li>
+    </ul>
+  </li>
+  <li>Application Binary Interface(ABI)
+    <ul>
+      <li>프로그램간 휴대성을 위함</li>
+      <li>System call Interface를 정의</li>
+      <li>System Call: OS에게 프로그램이 해야할 일을 말하는 것</li>
+    </ul>
+  </li>
+  <li>Application programming Interface(API)
+    <ul>
+      <li>High-level language 라이브러리</li>
+    </ul>
+  </li>
+</ul>
+
+<h4 id="kernel">Kernel</h4>
+<p>메인 메모리에 들어가 있는 Operating System - OS의 핵심적인 부분<br />
+Program과 Data의 양이 많이 들어갈 수 있도록 OS의 핵심적 기능만 메인 메모리에 적재</p>
+
+<h4 id="programming-종류">Programming 종류</h4>
+<h5 id="1-uni-programming">1. Uni-programming</h5>
+
+<p><img src="../images/20200812-os-01/Uni-programming.png" alt="Uni-programming" style="width:600px;height:auto;" />
+프로세서(CPU)는 I/O가 종료될 때 까지 기다림. 한번에 한가지 프로그램만 실행</p>
+
+<h5 id="2-multi-programming">2. Multi-programming</h5>
+<p><img src="../images/20200812-os-01/Multi-programming.png" alt="Multi-programming" style="width:600px;height:auto;" />
+I/O interrupt 발생 시 다른 Job으로 Switch하여 실행 <br /></p>
+
+<ul>
+  <li>장점: CPU가 기다리는 시간이 줄어듦</li>
+  <li>단점: 큰 메모리 공간 필요</li>
+</ul>
+
+
+  </div>
+
+  <div class="pagination">
+    
+      <span class="prev" >
+          <a href="http://localhost:4000/style-test-ko/">
+            &#xE000; A Full and Comprehensive Style Test(Korean ver.)
+          </a>
+      </span>
+    
+    
+  </div>
+
   
-    <article class="post">
-      <h1>
-        <a href="/style-test-ko/">A Full and Comprehensive Style Test(Korean ver.)</a>
-      </h1>
-
-      <div>
-        <span class="date">
-          2016-08-14
-        </span>
-
-        <ul class="tag">
-          
-          <li>
-            <a href="http://localhost:4000/tags#샘플 포스트">
-              샘플 포스트
-            </a>
-          </li>
-          
-          <li>
-            <a href="http://localhost:4000/tags#테스트">
-              테스트
-            </a>
-          </li>
-          
-          <li>
-            <a href="http://localhost:4000/tags#스타일">
-              스타일
-            </a>
-          </li>
-          
-        </ul>
-      </div>
-
-      <div class="entry">
-        <p>이 글은 스타일을 모아둔 것입니다. 소스 코드를 확인하여 스타일을 적용하는 방법을 알아보세요.</p>
-
-      </div>
-
-      <a href="/style-test-ko/" class="read-more">Read More</a>
-    </article>
-  
-</div>
-
-<div class="pagination">
-  
-  
-</div>
+</article>
 
     </div>
 
