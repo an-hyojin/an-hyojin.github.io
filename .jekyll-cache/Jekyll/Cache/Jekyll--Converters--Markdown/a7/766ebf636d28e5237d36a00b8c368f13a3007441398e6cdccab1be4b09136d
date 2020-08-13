@@ -1,0 +1,97 @@
+I"�<p>운영체제 정리 첫 번째 글, Overview</p>
+
+<hr />
+
+<h2 id="1-operating-system-overview">1. Operating System Overview</h2>
+
+<h3 id="운영체제란">운영체제란?</h3>
+
+<p>컴퓨터 시스템의 자원들을 효율적으로 관리하며, 사용자가 컴퓨터를 편리하고 효과적으로 사용할 수 있도록 환경을 제공하는 <mark>소프트웨어</mark></p>
+
+<h4 id="key-interfaces">Key Interfaces</h4>
+
+<ul>
+  <li>Instruction Set Architecture(ISA)
+    <ul>
+      <li>컴퓨터가 따를 수 있는 언어 instruction</li>
+      <li>하드웨어와 소프트웨어 사이의 경계 인터페이스</li>
+    </ul>
+  </li>
+  <li>Application Binary Interface(ABI)
+    <ul>
+      <li>프로그램간 휴대성을 위함</li>
+      <li>System call Interface를 정의</li>
+      <li>System Call: OS에게 프로그램이 해야할 일을 말하는 것</li>
+    </ul>
+  </li>
+  <li>Application programming Interface(API)
+    <ul>
+      <li>High-level language 라이브러리</li>
+    </ul>
+  </li>
+</ul>
+
+<h4 id="kernel">Kernel</h4>
+<p>메인 메모리에 들어가 있는 Operating System - OS의 핵심적인 부분<br />
+Program과 Data의 양이 많이 들어갈 수 있도록 OS의 핵심적 기능만 메인 메모리에 적재</p>
+
+<h4 id="programming-종류">Programming 종류</h4>
+<h5 id="1-uni-programming">1. Uni-programming</h5>
+
+<p><img src="../images/20200812-os-01/uni-programming.png" alt="Uni-programming" style="width:600px;height:auto;" />
+프로세서(CPU)는 I/O가 종료될 때 까지 기다림. 한번에 한가지 프로그램만 실행</p>
+
+<h5 id="2-multi-programming">2. Multi-programming</h5>
+<p><img src="../images/20200812-os-01/multi-programming.png" alt="Multi-programming" style="width:600px;height:auto;" />
+I/O interrupt 발생 시 다른 Job으로 Switch하여 실행 <br /></p>
+
+<ul>
+  <li>장점: CPU가 기다리는 시간이 줄어듦</li>
+  <li>단점: 큰 메모리 공간 필요</li>
+</ul>
+
+<h5 id="3-time-sharing">3. Time Sharing</h5>
+<p><img src="../images/20200812-os-01/time-sharing.png" alt="Time-sharing" style="width:600px;height:auto;" />
+워드 프로세서, Web Browser와 같은 대화식 프로그램을 실행할 때 사용되는 multiprogramming 기법 <br />
+시간 단위로 번갈아가며 실행: Response Time(반응 시간) 감소</p>
+
+<h6 id="multi-programming과-time-sharing의-차이">Multi Programming과 Time Sharing의 차이</h6>
+<p>두 방법 모두 현대 컴퓨터에서 사용함</p>
+
+<table class="center">
+  <thead>
+    <tr>
+      <th style="text-align: left"> </th>
+      <th style="text-align: center">Multi-programming</th>
+      <th style="text-align: right">Time-sharing</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">Used for</td>
+      <td style="text-align: center">Batch, Back-ground processing</td>
+      <td style="text-align: right">Interactive, Foreground processing</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td style="text-align: left">Better</td>
+      <td style="text-align: center">처리량</td>
+      <td style="text-align: right">응답 시간</td>
+    </tr>
+  </tbody>
+</table>
+<table>
+<thead>
+<tr><td></td>Multi-programming<td></td><td>Time-sharing</td></tr>
+</thead>
+<tbody>
+<tr><td>Used for</td><td>Batch, Back-ground processing</td><td>Interactive, Foreground processing</td></tr>
+<tr><td>Better</td><td>처리량</td><td>응답시간</td></tr>
+</tbody>
+</table>
+<dl>
+  <dt>처리량(Throughput)</dt>
+  <dd>단위 시간당 처리되는 job의 개수</dd>
+</dl>
+:ET

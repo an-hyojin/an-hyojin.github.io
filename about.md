@@ -13,12 +13,12 @@ permalink: /about/
 
 #### Project
 * **2018.09~2018.12** 최적 방문경로 제공 어플리케이션 "BEVECO" <br/> - Android/Java 
-* **2019.03~2018.06** 웹 프로그래밍 프로젝트(스케쥴러1,2/독서권장웹사이트)<br/> - HTML/CSS/JavaScript/PHP 
-* **2019.05~2018.06** Scheme 미니 인터프리터<br/> - Java 
-* **2019.11~2018.12** Java 미니 컴파일러<br/> - Java, Antlr 
-* **2019.10~2018.12** 지역 사회 발전을 위한 쿠폰 발급 및 사용 웹사이트<br/> - HTML/CSS/JavaScript/JSP/MySQL 
-* **2019.11~2018.12** 도서 관리 프로젝트(데이터베이스)<br/> - JSP/MySQL 
-* **(진행중) 2020.03 ~** 졸업 프로젝트: 머신러닝을 활용한 언어교육 시스템 <br/> - Angular/Node.js/Django/MongoDB 
+* **2019.03~2019.06** 웹 프로그래밍 프로젝트(스케쥴러1,2/독서권장웹사이트)<br/> - HTML/CSS/JavaScript/PHP 
+* **2019.05~2019.06** Scheme 미니 인터프리터<br/> - Java 
+* **2019.11~2019.12** Java 미니 컴파일러<br/> - Java, Antlr 
+* **2019.10~2019.12** 지역 사회 발전을 위한 쿠폰 발급 및 사용 웹사이트<br/> - HTML/CSS/JavaScript/JSP/MySQL 
+* **2019.11~2019.12** 도서 관리 프로젝트(데이터베이스)<br/> - JSP/MySQL 
+* <b><mark>(진행중)</mark> 2020.03 ~</b> 졸업 프로젝트: 머신러닝을 활용한 언어교육 시스템 <br/> - Angular/Node.js/Django/MongoDB 
 
 #### Experience
 * **2018.06** 제 6회 K-hackathon 참가

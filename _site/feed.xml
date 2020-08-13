@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-08-13T17:04:15+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">HyoJin’s Blog</title><subtitle>Computer Science 개념 정리</subtitle><entry><title type="html">[OS]1. Operating System Overview</title><link href="http://localhost:4000/operating-system-01/" rel="alternate" type="text/html" title="[OS]1. Operating System Overview" /><published>2020-08-12T00:00:00+09:00</published><updated>2020-08-12T00:00:00+09:00</updated><id>http://localhost:4000/operating-system-01</id><content type="html" xml:base="http://localhost:4000/operating-system-01/">&lt;p&gt;운영체제 정리 첫 번째 글,&lt;br /&gt;
-Overview&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-08-14T02:45:14+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">HyoJin’s Blog</title><subtitle>Computer Science 개념 정리</subtitle><entry><title type="html">[OS]1. Operating System Overview</title><link href="http://localhost:4000/operating-system-01/" rel="alternate" type="text/html" title="[OS]1. Operating System Overview" /><published>2020-08-12T00:00:00+09:00</published><updated>2020-08-12T00:00:00+09:00</updated><id>http://localhost:4000/operating-system-01</id><content type="html" xml:base="http://localhost:4000/operating-system-01/">&lt;p&gt;운영체제 정리 첫 번째 글, Overview&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -8,6 +7,15 @@ Overview&lt;/p&gt;
 &lt;h3 id=&quot;운영체제란&quot;&gt;운영체제란?&lt;/h3&gt;
 
 &lt;p&gt;컴퓨터 시스템의 자원들을 효율적으로 관리하며, 사용자가 컴퓨터를 편리하고 효과적으로 사용할 수 있도록 환경을 제공하는 &lt;mark&gt;소프트웨어&lt;/mark&gt;&lt;/p&gt;
+&lt;h4 id=&quot;운영체제가-하는-작업&quot;&gt;운영체제가 하는 작업&lt;/h4&gt;
+&lt;ol&gt;
+  &lt;li&gt;Process 관리(CPU 관리)&lt;/li&gt;
+  &lt;li&gt;Main Memory 관리&lt;/li&gt;
+  &lt;li&gt;파일 관리&lt;/li&gt;
+  &lt;li&gt;I/O 시스템 관리&lt;/li&gt;
+  &lt;li&gt;디스크 관리(Secondary Storage)&lt;/li&gt;
+  &lt;li&gt;Networking, Command-Interpreter System …&lt;/li&gt;
+&lt;/ol&gt;
 
 &lt;h4 id=&quot;key-interfaces&quot;&gt;Key Interfaces&lt;/h4&gt;
 
@@ -22,7 +30,6 @@ Overview&lt;/p&gt;
     &lt;ul&gt;
       &lt;li&gt;프로그램간 휴대성을 위함&lt;/li&gt;
       &lt;li&gt;System call Interface를 정의&lt;/li&gt;
-      &lt;li&gt;System Call: OS에게 프로그램이 해야할 일을 말하는 것&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
   &lt;li&gt;Application programming Interface(API)
@@ -33,23 +40,56 @@ Overview&lt;/p&gt;
 &lt;/ul&gt;
 
 &lt;h4 id=&quot;kernel&quot;&gt;Kernel&lt;/h4&gt;
-&lt;p&gt;메인 메모리에 들어가 있는 Operating System - OS의 핵심적인 부분&lt;br /&gt;
-Program과 Data의 양이 많이 들어갈 수 있도록 OS의 핵심적 기능만 메인 메모리에 적재&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;메인 메모리에 들어가 있는 Operating System - OS의 핵심적인 부분&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;Program과 Data의 양이 많이 들어갈 수 있도록 OS의 핵심적 기능만 메인 메모리에 적재&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h4 id=&quot;programming-종류&quot;&gt;Programming 종류&lt;/h4&gt;
 &lt;h5 id=&quot;1-uni-programming&quot;&gt;1. Uni-programming&lt;/h5&gt;
-
-&lt;p&gt;&lt;img src=&quot;../images/20200812-os-01/Uni-programming.png&quot; alt=&quot;Uni-programming&quot; style=&quot;width:600px;height:auto;&quot; /&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;img src=&quot;../images/20200812-os-01/uni-programming.png&quot; alt=&quot;Uni-programming&quot; style=&quot;width:600px;height:auto;&quot; /&gt;
 프로세서(CPU)는 I/O가 종료될 때 까지 기다림. 한번에 한가지 프로그램만 실행&lt;/p&gt;
 
 &lt;h5 id=&quot;2-multi-programming&quot;&gt;2. Multi-programming&lt;/h5&gt;
-&lt;p&gt;&lt;img src=&quot;../images/20200812-os-01/Multi-programming.png&quot; alt=&quot;Multi-programming&quot; style=&quot;width:600px;height:auto;&quot; /&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;img src=&quot;../images/20200812-os-01/multi-programming.png&quot; alt=&quot;Multi-programming&quot; style=&quot;width:600px;height:auto;&quot; /&gt;
 I/O interrupt 발생 시 다른 Job으로 Switch하여 실행 &lt;br /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;장점: CPU가 기다리는 시간이 줄어듦&lt;/li&gt;
   &lt;li&gt;단점: 큰 메모리 공간 필요&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="운영체제" /><category term="OS" /><summary type="html">운영체제 정리 첫 번째 글, Overview</summary></entry><entry><title type="html">A Full and Comprehensive Style Test(Korean ver.)</title><link href="http://localhost:4000/style-test-ko/" rel="alternate" type="text/html" title="A Full and Comprehensive Style Test(Korean ver.)" /><published>2016-08-14T00:00:00+09:00</published><updated>2016-08-14T00:00:00+09:00</updated><id>http://localhost:4000/style-test-ko</id><content type="html" xml:base="http://localhost:4000/style-test-ko/">&lt;p&gt;이 글은 스타일을 모아둔 것입니다. 소스 코드를 확인하여 스타일을 적용하는 방법을 알아보세요.&lt;/p&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;3-time-sharing&quot;&gt;3. Time Sharing&lt;/h5&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;img src=&quot;../images/20200812-os-01/time-sharing.png&quot; alt=&quot;Time-sharing&quot; style=&quot;width:600px;height:auto;&quot; /&gt;
+워드 프로세서, Web Browser와 같은 대화식 프로그램을 실행할 때 사용되는 multiprogramming 기법 &lt;br /&gt;
+시간 단위로 번갈아가며 실행: Response Time(반응 시간) 감소&lt;/p&gt;
+
+&lt;h5 id=&quot;--multi-programming과-time-sharing의-차이&quot;&gt;- Multi Programming과 Time Sharing의 차이&lt;/h5&gt;
+&lt;p&gt;두 방법 모두 현대 컴퓨터에서 사용함&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td style=&quot;text-align:center&quot;&gt;Multi-programming&lt;/td&gt;&lt;td style=&quot;text-align:center&quot;&gt;Time-sharing&lt;/td&gt;&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;Used for&lt;/td&gt;&lt;td style=&quot;text-align:center&quot;&gt;Batch, Back-ground processing&lt;/td&gt;&lt;td style=&quot;text-align:center&quot;&gt;Interactive, Foreground processing&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Better&lt;/td&gt;&lt;td style=&quot;text-align:center&quot;&gt;처리량&lt;/td&gt;&lt;td style=&quot;text-align:center&quot;&gt;응답시간&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h4 id=&quot;그-외-개념-혹은-추후에-정리할-내용들&quot;&gt;그 외 개념, 혹은 추후에 정리할 내용들&lt;/h4&gt;
+&lt;dl&gt;
+  &lt;dt&gt;처리량(Throughput)&lt;/dt&gt;
+  &lt;dd&gt;단위 시간당 처리되는 job의 개수&lt;/dd&gt;
+  &lt;dt&gt;Process Scheduling&lt;/dt&gt;
+  &lt;dd&gt;어떤 프로그램을 CPU(프로세서)가 다음에 실행할 지 정함&lt;/dd&gt;
+  &lt;dt&gt;Command-Interpreter System&lt;/dt&gt;
+  &lt;dd&gt;User가 OS에게 명령을 내리는 방법 with CLI,GUI&lt;/dd&gt;
+  &lt;dt&gt;System Call&lt;/dt&gt;
+  &lt;dd&gt;프로그램이 OS에게 해야할 일을 말하는 수단&lt;/dd&gt;
+&lt;/dl&gt;</content><author><name></name></author><category term="운영체제" /><category term="OS" /><summary type="html">운영체제 정리 첫 번째 글, Overview</summary></entry><entry><title type="html">A Full and Comprehensive Style Test(Korean ver.)</title><link href="http://localhost:4000/style-test-ko/" rel="alternate" type="text/html" title="A Full and Comprehensive Style Test(Korean ver.)" /><published>2016-08-14T00:00:00+09:00</published><updated>2016-08-14T00:00:00+09:00</updated><id>http://localhost:4000/style-test-ko</id><content type="html" xml:base="http://localhost:4000/style-test-ko/">&lt;p&gt;이 글은 스타일을 모아둔 것입니다. 소스 코드를 확인하여 스타일을 적용하는 방법을 알아보세요.&lt;/p&gt;
 
 &lt;hr /&gt;
 
