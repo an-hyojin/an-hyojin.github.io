@@ -77,7 +77,7 @@ Process Scheduling
 : 어떤 프로그램을 CPU(프로세서)가 다음에 실행할 지 정함
 
 Command-Interpreter System
-: User가 OS에게 명령을 내리는 방법 with CLI,GUI
+: User가 OS에게 명령을 내리는 방법 with CLI, GUI
 
 System Call
 : 프로그램이 OS에게 해야할 일을 말하는 수단

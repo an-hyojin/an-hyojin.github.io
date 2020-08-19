@@ -1,4 +1,106 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-08-14T02:49:45+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">HyoJin’s Blog</title><subtitle>Computer Science 개념 정리</subtitle><entry><title type="html">[OS]1. Operating System Overview</title><link href="http://localhost:4000/operating-system-01/" rel="alternate" type="text/html" title="[OS]1. Operating System Overview" /><published>2020-08-12T00:00:00+09:00</published><updated>2020-08-12T00:00:00+09:00</updated><id>http://localhost:4000/operating-system-01</id><content type="html" xml:base="http://localhost:4000/operating-system-01/">&lt;p&gt;운영체제 정리 첫 번째 글, Overview&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-08-19T23:42:11+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">HyoJin’s Blog</title><subtitle>Computer Science 개념 정리</subtitle><entry><title type="html">[ADSP]1. ADSP 요약 정리</title><link href="http://localhost:4000/adsp-01/" rel="alternate" type="text/html" title="[ADSP]1. ADSP 요약 정리" /><published>2020-08-18T00:00:00+09:00</published><updated>2020-08-18T00:00:00+09:00</updated><id>http://localhost:4000/adsp-01</id><content type="html" xml:base="http://localhost:4000/adsp-01/">&lt;p&gt;ADSP 자격증 공부 첫 번째 글,&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;adsp-1과목&quot;&gt;ADSP 1과목&lt;/h2&gt;
+
+&lt;h3 id=&quot;1-데이터의-이해&quot;&gt;1. 데이터의 이해&lt;/h3&gt;
+
+&lt;h4 id=&quot;데이터-유형&quot;&gt;데이터 유형&lt;/h4&gt;
+
+&lt;dl&gt;
+  &lt;dt&gt;정성적 데이터&lt;/dt&gt;
+  &lt;dd&gt;저장·검색·분석에 많은 비용이 소모되는 언어, 문자 형태의 데이터&lt;/dd&gt;
+  &lt;dt&gt;정량적 데이터&lt;/dt&gt;
+  &lt;dd&gt;정형화된 데이터로 수치, 도형, 기호 등의 형태를 가진 데이터&lt;/dd&gt;
+&lt;/dl&gt;
+
+&lt;h4 id=&quot;암묵지와-형식지&quot;&gt;암묵지와 형식지&lt;/h4&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;개념&lt;/td&gt;
+&lt;td&gt;특징&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;암묵지&lt;/td&gt;
+&lt;td&gt;학습과 경험을 통해 개인에게 체화되어 있지만 겉으로 드러나지 않는 지식&lt;/td&gt;
+&lt;td&gt;공통화, 내면화&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;형식지&lt;/td&gt;
+&lt;td&gt;문서나 메뉴얼처럼 형상화된 지식&lt;/td&gt;
+&lt;td&gt;표출화, 연결화&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h4 id=&quot;dikw&quot;&gt;DIKW&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/20200818-adsp-01/dikw.jpg&quot; alt=&quot;DIKW pyramid&quot; style=&quot;width:400px;height:auto;&quot; class=&quot;center-image&quot; /&gt;&lt;/p&gt;
+&lt;p style=&quot;color:grey; font-size:15px; text-align:center;&quot;&gt;DIKW 피라미드&lt;/p&gt;
+
+&lt;dl&gt;
+  &lt;dt&gt;Data&lt;/dt&gt;
+  &lt;dd&gt;가공하기 전의 순수한 수치/기호&lt;/dd&gt;
+  &lt;dt&gt;Information&lt;/dt&gt;
+  &lt;dd&gt;상관관계간 이해를 통해 패턴을 인식하고 그 의미를 부여한 데이터&lt;/dd&gt;
+  &lt;dt&gt;Knowledge&lt;/dt&gt;
+  &lt;dd&gt;상호 연결된 정보 패턴을 이해하여 이를 토대로 예측한 결과물&lt;/dd&gt;
+  &lt;dt&gt;Wisdom&lt;/dt&gt;
+  &lt;dd&gt;근본 원리에 대한 깊은 이해를 바탕으로 도출되는 아이디어&lt;/dd&gt;
+&lt;/dl&gt;
+
+&lt;h4 id=&quot;데이터베이스-유형&quot;&gt;데이터베이스 유형&lt;/h4&gt;
+
+&lt;dl&gt;
+  &lt;dt&gt;통합된 데이터&lt;/dt&gt;
+  &lt;dd&gt;동일한 내용의 데이터가 중복되어 있지 않다.&lt;/dd&gt;
+  &lt;dt&gt;저장된 데이터&lt;/dt&gt;
+  &lt;dd&gt;컴퓨터가 접근할 수 있는 저장 매체에 저장된다.&lt;/dd&gt;
+  &lt;dt&gt;공용 데이터&lt;/dt&gt;
+  &lt;dd&gt;여러 사용자가 서로 다른 목적으로 데이터를 공동으로 이용한다.&lt;/dd&gt;
+  &lt;dt&gt;변화되는 데이터&lt;/dt&gt;
+  &lt;dd&gt;데이터베이스에 저장된 내용은 곧 데이터베이스의 현 시점에서의 상태.&lt;/dd&gt;
+&lt;/dl&gt;
+
+&lt;h4 id=&quot;빅데이터&quot;&gt;빅데이터&lt;/h4&gt;
+
+&lt;h5 id=&quot;빅데이터-특징&quot;&gt;빅데이터 특징&lt;/h5&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;3V: 규모(Volumne), 속도(Velocity), 형태(Variety)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;빅데이터가-만들어-내는-본질적인-변화&quot;&gt;빅데이터가 만들어 내는 본질적인 변화&lt;/h5&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;사전처리 → 사후처리
+    &lt;ul&gt;
+      &lt;li&gt;가능한 한 많은 데이터를 모으고 그 데이터를 다양한 방식으로 조합해 숨은 정보를 찾아냄&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;표본조사 → 전수조사
+    &lt;ul&gt;
+      &lt;li&gt;데이터 처리 기술이 감소함. 이로인해 표본을 조사하는 방식에서 전수조사를 통해 샘플링이 주지 못하는 패턴, 정보를 발견하는 방식으로 변화&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;질 → 양
+    &lt;ul&gt;
+      &lt;li&gt;데이터가 지속적으로 추가될 경우 양질의 정보가 오류 정보보다 많아 전체적으로 좋은 결과 산출에 긍정적 영향&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;인과관계 → 상관관계
+    &lt;ul&gt;
+      &lt;li&gt;데이터 기반의 상관관계 분석이 주는 인사이트가 인과관계에 의한 미래 예측을 점점 더 압도해 갈 것&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;</content><author><name></name></author><category term="ADSP" /><category term="자격증" /><summary type="html">ADSP 자격증 공부 첫 번째 글,</summary></entry><entry><title type="html">[OS]1. Operating System Overview</title><link href="http://localhost:4000/operating-system-01/" rel="alternate" type="text/html" title="[OS]1. Operating System Overview" /><published>2020-08-12T00:00:00+09:00</published><updated>2020-08-12T00:00:00+09:00</updated><id>http://localhost:4000/operating-system-01</id><content type="html" xml:base="http://localhost:4000/operating-system-01/">&lt;p&gt;운영체제 정리 첫 번째 글, Overview&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -86,7 +188,7 @@ I/O interrupt 발생 시 다른 Job으로 Switch하여 실행 &lt;br /&gt;&lt;/p
   &lt;dt&gt;Process Scheduling&lt;/dt&gt;
   &lt;dd&gt;어떤 프로그램을 CPU(프로세서)가 다음에 실행할 지 정함&lt;/dd&gt;
   &lt;dt&gt;Command-Interpreter System&lt;/dt&gt;
-  &lt;dd&gt;User가 OS에게 명령을 내리는 방법 with CLI,GUI&lt;/dd&gt;
+  &lt;dd&gt;User가 OS에게 명령을 내리는 방법 with CLI, GUI&lt;/dd&gt;
   &lt;dt&gt;System Call&lt;/dt&gt;
   &lt;dd&gt;프로그램이 OS에게 해야할 일을 말하는 수단&lt;/dd&gt;
 &lt;/dl&gt;</content><author><name></name></author><category term="운영체제" /><category term="OS" /><summary type="html">운영체제 정리 첫 번째 글, Overview</summary></entry><entry><title type="html">A Full and Comprehensive Style Test(Korean ver.)</title><link href="http://localhost:4000/style-test-ko/" rel="alternate" type="text/html" title="A Full and Comprehensive Style Test(Korean ver.)" /><published>2016-08-14T00:00:00+09:00</published><updated>2016-08-14T00:00:00+09:00</updated><id>http://localhost:4000/style-test-ko</id><content type="html" xml:base="http://localhost:4000/style-test-ko/">&lt;p&gt;이 글은 스타일을 모아둔 것입니다. 소스 코드를 확인하여 스타일을 적용하는 방법을 알아보세요.&lt;/p&gt;
@@ -106,15 +208,16 @@ I/O interrupt 발생 시 다른 Job으로 Switch하여 실행 &lt;br /&gt;&lt;/p
 &lt;h5 id=&quot;제목-5&quot;&gt;제목 5&lt;/h5&gt;
 
 &lt;h6 id=&quot;제목-6&quot;&gt;제목 6&lt;/h6&gt;
+
 &lt;h3 id=&quot;1-1-제목-정렬&quot;&gt;1-1. 제목 정렬&lt;/h3&gt;
 
 &lt;h5 id=&quot;왼쪽기본&quot;&gt;왼쪽(기본)&lt;/h5&gt;
 
-&lt;h5 class=&quot;center&quot; id=&quot;가운데&quot;&gt;가운데&lt;/h5&gt;
+&lt;h5 id=&quot;가운데&quot;&gt;가운데&lt;/h5&gt;
 
-&lt;h5 class=&quot;right&quot; id=&quot;오른쪽&quot;&gt;오른쪽&lt;/h5&gt;
+&lt;h5 class=&quot;center&quot; id=&quot;오른쪽&quot;&gt;오른쪽&lt;/h5&gt;
 
-&lt;h2 id=&quot;2-본문&quot;&gt;2. 본문&lt;/h2&gt;
+&lt;h2 class=&quot;right&quot; id=&quot;2-본문&quot;&gt;2. 본문&lt;/h2&gt;
 
 &lt;p&gt;탄핵소추의 의결을 받은 자는 탄핵심판이 있을 때까지 &lt;a href=&quot;#&quot;&gt;링크&lt;/a&gt; 그 권한행사가 정지된다. 제2항과 제3항의 처분에 대하여는 &lt;strong&gt;굵게&lt;/strong&gt; 법원에 제소할 수 없다. 선거와 국민투표의 공정한 관리 &lt;em&gt;기울임&lt;/em&gt; 및 정당에 관한 사무를 처리하기 위하여 5&lt;sup&gt;3&lt;/sup&gt; = 125 선거관리위원회를 둔다. 국무총리는 대통령을 보좌하며, H&lt;sub&gt;2&lt;/sub&gt;O 행정에 관하여 대통령의 명을 받아 행정각부를 통할한다. 정당은 법률이 정하는 바에 의하여 &lt;u&gt;밑줄&lt;/u&gt; 국가의 보호를 받으며, 국가는 법률이 정하는 바에 의하여 &lt;code class=&quot;highlighter-rouge&quot;&gt;파일명&lt;/code&gt; 정당운영에 필요한 자금을 보조할 수 있다. 모든 국민은 종교의 자유를 가진다. 국회의원은 법률이 정하는 직을 겸할 수 없다. 감사원은 &lt;del&gt;가운데 줄&lt;/del&gt; 세입·세출의 결산을 매년 검사하여 대통령과 차년도국회에 &lt;mark&gt;형광펜&lt;/mark&gt; 그 결과를 보고하여야 한다.&lt;/p&gt;
 
@@ -125,6 +228,7 @@ I/O interrupt 발생 시 다른 Job으로 Switch하여 실행 &lt;br /&gt;&lt;/p
 &lt;img src=&quot;http://placehold.it/200x200&quot; alt=&quot;작은 이미지&quot; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;3-1-이미지-가운데-정렬&quot;&gt;3-1. 이미지 가운데 정렬&lt;/h3&gt;
+
 &lt;p&gt;&lt;img src=&quot;http://placehold.it/200x200&quot; alt=&quot;이미지 가운데 정렬&quot; class=&quot;center-image&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;4-인용구&quot;&gt;4. 인용구&lt;/h2&gt;
@@ -154,12 +258,15 @@ I/O interrupt 발생 시 다른 Job으로 Switch하여 실행 &lt;br /&gt;&lt;/p
 &lt;ol&gt;
   &lt;li&gt;대통령으로 선거될 수 있는 자는 국회의원의 피선거권이 있고 선거일 현재 40세에 달하여야 한다.&lt;/li&gt;
   &lt;li&gt;각급 선거관리위원회는 선거인명부의 작성등 선거사무와 국민투표사무에 관하여 관계 행정기관에 필요한 지시를 할 수 있다.&lt;/li&gt;
-  &lt;li&gt;예비비는 총액으로 국회의 의결을 얻어야 한다. 예비비의 지출은 차기국회의 승인을 얻어야 한다.
-    &lt;ul&gt;
-      &lt;li&gt;국가는 농지에 관하여 경자유전의 원칙이 달성될 수 있도록 노력하여야 하며, 농지의 소작제도는 금지된다.&lt;/li&gt;
-      &lt;li&gt;모든 국민은 법률이 정하는 바에 의하여 납세의 의무를 진다.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
+  &lt;li&gt;예비비는 총액으로 국회의 의결을 얻어야 한다. 예비비의 지출은 차기국회의 승인을 얻어야 한다.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;국가는 농지에 관하여 경자유전의 원칙이 달성될 수 있도록 노력하여야 하며, 농지의 소작제도는 금지된다.&lt;/li&gt;
+  &lt;li&gt;모든 국민은 법률이 정하는 바에 의하여 납세의 의무를 진다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ol&gt;
   &lt;li&gt;형사피의자 또는 형사피고인으로서 구금되었던 자가 법률이 정하는 불기소처분을 받거나 무죄판결을 받은 때에는 법률이 정하는 바에 의하여 국가에 정당한 보상을 청구할 수 있다.&lt;/li&gt;
 &lt;/ol&gt;
 
@@ -194,23 +301,26 @@ I/O interrupt 발생 시 다른 Job으로 Switch하여 실행 &lt;br /&gt;&lt;/p
       &lt;td style=&quot;text-align: right&quot;&gt;셀6&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
   &lt;tbody&gt;
     &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;셀1&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;셀2&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;셀3&lt;/td&gt;
+      &lt;td&gt;셀1&lt;/td&gt;
+      &lt;td&gt;셀2&lt;/td&gt;
+      &lt;td&gt;셀3&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;셀4&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;셀5&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;셀6&lt;/td&gt;
+      &lt;td&gt;셀4&lt;/td&gt;
+      &lt;td&gt;셀5&lt;/td&gt;
+      &lt;td&gt;셀6&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
   &lt;tfoot&gt;
     &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;하단1&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;하단2&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;하단3&lt;/td&gt;
+      &lt;td&gt;하단1&lt;/td&gt;
+      &lt;td&gt;하단2&lt;/td&gt;
+      &lt;td&gt;하단3&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tfoot&gt;
 &lt;/table&gt;
@@ -235,4 +345,4 @@ I/O interrupt 발생 시 다른 Job으로 Switch하여 실행 &lt;br /&gt;&lt;/p
 
 &lt;hr /&gt;
 
-&lt;p&gt;이 문서는 &lt;a href=&quot;http://guny.kr/stuff/klorem/&quot;&gt;한글 Lorem Ipsum&lt;/a&gt;으로 생성되었습니다.&lt;/p&gt;</content><author><name></name></author><category term="샘플 포스트" /><category term="테스트" /><category term="스타일" /><summary type="html">이 글은 스타일을 모아둔 것입니다. 소스 코드를 확인하여 스타일을 적용하는 방법을 알아보세요.</summary></entry></feed>
+&lt;p&gt;이 문서는 &lt;a href=&quot;http://guny.kr/stuff/klorem/&quot;&gt;한글 Lorem Ipsum&lt;/a&gt;으로 생성되었습니다.&lt;/p&gt;</content><author><name></name></author><summary type="html">이 글은 스타일을 모아둔 것입니다. 소스 코드를 확인하여 스타일을 적용하는 방법을 알아보세요.</summary></entry></feed>

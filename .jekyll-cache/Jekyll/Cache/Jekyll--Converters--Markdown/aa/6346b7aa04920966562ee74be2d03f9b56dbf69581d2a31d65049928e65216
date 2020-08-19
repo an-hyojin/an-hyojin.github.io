@@ -1,4 +1,4 @@
-I"�<p>운영체제 정리 첫 번째 글, Overview</p>
+I"�<p>운영체제 정리 첫 번째 글, Overview</p>
 
 <hr />
 
@@ -86,7 +86,7 @@ I/O interrupt 발생 시 다른 Job으로 Switch하여 실행 <br /></p>
   <dt>Process Scheduling</dt>
   <dd>어떤 프로그램을 CPU(프로세서)가 다음에 실행할 지 정함</dd>
   <dt>Command-Interpreter System</dt>
-  <dd>User가 OS에게 명령을 내리는 방법 with CLI,GUI</dd>
+  <dd>User가 OS에게 명령을 내리는 방법 with CLI, GUI</dd>
   <dt>System Call</dt>
   <dd>프로그램이 OS에게 해야할 일을 말하는 수단</dd>
 </dl>

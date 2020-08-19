@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>[ADSP]1. ADSP 요약 정리 – HyoJin's Blog – Computer Science 개념 정리</title>
+
+      <meta charset="utf-8" />
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
+
+    
+    <meta name="description" content="ADSP 자격증 공부 첫 번째 글,
+" />
+    <meta property="og:description" content="ADSP 자격증 공부 첫 번째 글,
+" />
+    
+    <meta name="author" content="HyoJin's Blog" />
+
+    
+    <meta property="og:title" content="[ADSP]1. ADSP 요약 정리" />
+    <meta property="twitter:title" content="[ADSP]1. ADSP 요약 정리" />
+    
+  <!-- Async font loading -->
+<script>
+  window.WebFontConfig = {
+      custom: {
+          families: ['Spoqa Han Sans:100,300,400,700'],
+          urls: ['https://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css']
+      },
+      timeout: 60000
+  };
+  (function(d) {
+      var wf = d.createElement('script'), s = d.scripts[0];
+      wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js';
+      s.parentNode.insertBefore(wf, s);
+  })(document);
+</script>
+
+  <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+  <link rel="stylesheet" type="text/css" href="/style.css" />
+  <link rel="alternate" type="application/rss+xml" title="HyoJin's Blog - Computer Science 개념 정리" href="/feed.xml" />
+
+  <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
+</head>
+  <body>
+    <div class="wrapper-masthead">
+  <div class="container">
+    <header class="masthead clearfix">
+      
+        <a href="/" class="site-avatar"><img src="https://raw.githubusercontent.com/an-hyojin/an-hyojin.github.io/master/images/blog-logo.png" /></a>
+      
+
+      <div class="site-info">
+        <h1 class="site-name"><a href="/">HyoJin's Blog</a></h1>
+        <p class="site-description">Computer Science 개념 정리</p>
+      </div>
+
+      <nav>
+        
+        
+        <a href="/">Blog</a>
+        
+        
+        
+        <a href="/about">About</a>
+        
+        
+        
+        <a href="/archive">Archive</a>
+        
+        
+        
+        <a href="/tags">Tags</a>
+        
+        
+      </nav>
+    </header>
+  </div>
+</div>
+
+    <div id="main" role="main" class="container">
+      <article class="post">
+  <h1>[ADSP]1. ADSP 요약 정리</h1>
+
+  <div>
+    <span class="date">
+      2020-08-18
+    </span>
+
+    <ul class="tag">
+      
+      <li>
+        <a href="http://localhost:4000/tags#ADSP">
+          ADSP
+        </a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:4000/tags#자격증">
+          자격증
+        </a>
+      </li>
+      
+    </ul>
+  </div>
+
+  <div class="entry">
+    <p>ADSP 자격증 공부 첫 번째 글,</p>
+
+<hr />
+
+<h2 id="adsp-1과목">ADSP 1과목</h2>
+
+<h3 id="1-데이터의-이해">1. 데이터의 이해</h3>
+
+<h4 id="데이터-유형">데이터 유형</h4>
+
+<dl>
+  <dt>정성적 데이터</dt>
+  <dd>저장·검색·분석에 많은 비용이 소모되는 언어, 문자 형태의 데이터</dd>
+  <dt>정량적 데이터</dt>
+  <dd>정형화된 데이터로 수치, 도형, 기호 등의 형태를 가진 데이터</dd>
+</dl>
+
+<h4 id="암묵지와-형식지">암묵지와 형식지</h4>
+
+<table>
+<thead>
+<tr>
+<td></td>
+<td>개념</td>
+<td>특징</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>암묵지</td>
+<td>학습과 경험을 통해 개인에게 체화되어 있지만 겉으로 드러나지 않는 지식</td>
+<td>공통화, 내면화</td>
+</tr>
+
+<tr>
+<td>형식지</td>
+<td>문서나 메뉴얼처럼 형상화된 지식</td>
+<td>표출화, 연결화</td>
+</tr>
+</tbody>
+</table>
+
+<h4 id="dikw">DIKW</h4>
+
+<p><img src="../images/20200818-adsp-01/dikw.jpg" alt="DIKW pyramid" style="width:400px;height:auto;" class="center-image" /></p>
+<p style="color:grey; font-size:15px; text-align:center;">DIKW 피라미드</p>
+
+<dl>
+  <dt>Data</dt>
+  <dd>가공하기 전의 순수한 수치/기호</dd>
+  <dt>Information</dt>
+  <dd>상관관계간 이해를 통해 패턴을 인식하고 그 의미를 부여한 데이터</dd>
+  <dt>Knowledge</dt>
+  <dd>상호 연결된 정보 패턴을 이해하여 이를 토대로 예측한 결과물</dd>
+  <dt>Wisdom</dt>
+  <dd>근본 원리에 대한 깊은 이해를 바탕으로 도출되는 아이디어</dd>
+</dl>
+
+<h4 id="데이터베이스-유형">데이터베이스 유형</h4>
+
+<dl>
+  <dt>통합된 데이터</dt>
+  <dd>동일한 내용의 데이터가 중복되어 있지 않다.</dd>
+  <dt>저장된 데이터</dt>
+  <dd>컴퓨터가 접근할 수 있는 저장 매체에 저장된다.</dd>
+  <dt>공용 데이터</dt>
+  <dd>여러 사용자가 서로 다른 목적으로 데이터를 공동으로 이용한다.</dd>
+  <dt>변화되는 데이터</dt>
+  <dd>데이터베이스에 저장된 내용은 곧 데이터베이스의 현 시점에서의 상태.</dd>
+</dl>
+
+<h4 id="빅데이터">빅데이터</h4>
+
+<h5 id="빅데이터-특징">빅데이터 특징</h5>
+
+<ul>
+  <li>3V: 규모(Volumne), 속도(Velocity), 형태(Variety)</li>
+</ul>
+
+<h5 id="빅데이터가-만들어-내는-본질적인-변화">빅데이터가 만들어 내는 본질적인 변화</h5>
+
+<ol>
+  <li>사전처리 → 사후처리
+    <ul>
+      <li>가능한 한 많은 데이터를 모으고 그 데이터를 다양한 방식으로 조합해 숨은 정보를 찾아냄</li>
+    </ul>
+  </li>
+  <li>표본조사 → 전수조사
+    <ul>
+      <li>데이터 처리 기술이 감소함. 이로인해 표본을 조사하는 방식에서 전수조사를 통해 샘플링이 주지 못하는 패턴, 정보를 발견하는 방식으로 변화</li>
+    </ul>
+  </li>
+  <li>질 → 양
+    <ul>
+      <li>데이터가 지속적으로 추가될 경우 양질의 정보가 오류 정보보다 많아 전체적으로 좋은 결과 산출에 긍정적 영향</li>
+    </ul>
+  </li>
+  <li>인과관계 → 상관관계
+    <ul>
+      <li>데이터 기반의 상관관계 분석이 주는 인사이트가 인과관계에 의한 미래 예측을 점점 더 압도해 갈 것</li>
+    </ul>
+  </li>
+</ol>
+
+  </div>
+
+  <div class="pagination">
+    
+      <span class="prev" >
+          <a href="http://localhost:4000/operating-system-01/">
+            &#xE000; [OS]1. Operating System Overview
+          </a>
+      </span>
+    
+    
+  </div>
+
+  
+</article>
+
+    </div>
+
+    <div class="wrapper-footer">
+      <div class="container">
+        <footer class="footer">
+          <!-- Refer to https://codepen.io/ruandre/pen/howFi -->
+<ul class="svg-icon">
+
+  
+
+  
+
+  
+  <li><a href="mailto:ahj1848@gmail.com" class="icon-8 email" title="Email"><svg viewBox="0 0 512 512"><path d="M101.3 141.6v228.9h0.3 308.4 0.8V141.6H101.3zM375.7 167.8l-119.7 91.5 -119.6-91.5H375.7zM127.6 194.1l64.1 49.1 -64.1 64.1V194.1zM127.8 344.2l84.9-84.9 43.2 33.1 43-32.9 84.7 84.7L127.8 344.2 127.8 344.2zM384.4 307.8l-64.4-64.4 64.4-49.3V307.8z"/></svg><!--[if lt IE 9]><em>Email</em><![endif]--></a></li>
+  
+
+  
+
+  
+
+  
+  <li><a href="https://github.com/an-hyojin" class="icon-13 github" title="GitHub"><svg viewBox="0 0 512 512"><path d="M256 70.7c-102.6 0-185.9 83.2-185.9 185.9 0 82.1 53.3 151.8 127.1 176.4 9.3 1.7 12.3-4 12.3-8.9V389.4c-51.7 11.3-62.5-21.9-62.5-21.9 -8.4-21.5-20.6-27.2-20.6-27.2 -16.9-11.5 1.3-11.3 1.3-11.3 18.7 1.3 28.5 19.2 28.5 19.2 16.6 28.4 43.5 20.2 54.1 15.4 1.7-12 6.5-20.2 11.8-24.9 -41.3-4.7-84.7-20.6-84.7-91.9 0-20.3 7.3-36.9 19.2-49.9 -1.9-4.7-8.3-23.6 1.8-49.2 0 0 15.6-5 51.1 19.1 14.8-4.1 30.7-6.2 46.5-6.3 15.8 0.1 31.7 2.1 46.6 6.3 35.5-24 51.1-19.1 51.1-19.1 10.1 25.6 3.8 44.5 1.8 49.2 11.9 13 19.1 29.6 19.1 49.9 0 71.4-43.5 87.1-84.9 91.7 6.7 5.8 12.8 17.1 12.8 34.4 0 24.9 0 44.9 0 51 0 4.9 3 10.7 12.4 8.9 73.8-24.6 127-94.3 127-176.4C441.9 153.9 358.6 70.7 256 70.7z"/></svg><!--[if lt IE 9]><em>GitHub</em><![endif]--></a></li>
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+</ul>
+
+
+
+<p>© HyoJin's Blog 2020</p>
+
+        </footer>
+      </div>
+    </div>
+
+    
+
+  </body>
+</html>
