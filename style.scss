@@ -60,6 +60,7 @@ h2 {
 
 h3 {
   font-size: 20px;
+  background-color: $bg-light;
 }
 
 h4 {
@@ -176,7 +177,8 @@ dt {
   width: $dt-width;
   overflow: auto;
   clear: left;
-  text-align: right;
+  // text-align: right;
+  margin-left:$dt-dd-space;
   white-space: nowrap;
   font-weight: bold;
   margin-bottom: $li-bottom-space;
