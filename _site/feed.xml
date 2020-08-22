@@ -1,4 +1,36 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-08-21T18:51:25+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">HyoJin’s Blog</title><subtitle>Computer Science 개념 정리</subtitle><entry><title type="html">[ADSP]1. ADSP 요약 정리</title><link href="http://localhost:4000/adsp-01/" rel="alternate" type="text/html" title="[ADSP]1. ADSP 요약 정리" /><published>2020-08-18T00:00:00+09:00</published><updated>2020-08-18T00:00:00+09:00</updated><id>http://localhost:4000/adsp-01</id><content type="html" xml:base="http://localhost:4000/adsp-01/">&lt;p&gt;ADSP 자격증 공부 첫 번째 글,&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-08-22T18:44:09+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">HyoJin’s Blog</title><subtitle>Computer Science 개념 정리</subtitle><entry><title type="html">[ADSP]2. ADSP 2과목 요약 정리</title><link href="http://localhost:4000/adsp-02/" rel="alternate" type="text/html" title="[ADSP]2. ADSP 2과목 요약 정리" /><published>2020-08-22T00:00:00+09:00</published><updated>2020-08-22T00:00:00+09:00</updated><id>http://localhost:4000/adsp-02</id><content type="html" xml:base="http://localhost:4000/adsp-02/">&lt;p&gt;ADSP 자격증 공부 두 번째 글,&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;adsp-2과목&quot;&gt;ADSP 2과목&lt;/h2&gt;
+
+&lt;h3 id=&quot;1-데이터-분석-기획의-이해&quot;&gt;1. 데이터 분석 기획의 이해&lt;/h3&gt;
+
+&lt;h4 id=&quot;분석-기획-방향성-도출&quot;&gt;분석 기획 방향성 도출&lt;/h4&gt;
+
+&lt;h5 id=&quot;분석-기획&quot;&gt;분석 기획&lt;/h5&gt;
+&lt;p&gt;실제 분석을 수행하기에 앞서 분석을 수행할 과제를 정의하고, 의도했던 결과를 도출할 수 있도록 이를 적절하게 관리할 수 있는 방안을 사전에 계획하는 일련의 작업&lt;/p&gt;
+
+&lt;h5 id=&quot;분석-대상과-방법&quot;&gt;분석 대상과 방법&lt;/h5&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;&lt;td&gt;분석 주제 유형&lt;/td&gt;&lt;td colspan=&quot;3&quot;&gt;분석의 대상&lt;/td&gt;&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;&lt;td rowspan=&quot;3&quot;&gt;분석의 방법(How)&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;Known&lt;/td&gt;&lt;td&gt;Unknown&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Known&lt;/td&gt;&lt;td&gt;Optimization&lt;/td&gt;&lt;td&gt;Insight&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;UnKnown&lt;/td&gt;&lt;td&gt;Solution&lt;/td&gt;&lt;td&gt;Discovery&lt;/td&gt;&lt;/tr&gt;
+
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h5 id=&quot;분석-기획시-고려사항&quot;&gt;분석 기획시 고려사항&lt;/h5&gt;
+&lt;ul&gt;
+  &lt;li&gt;가용 데이터(Availiable data)에 대한 고려가 필요&lt;/li&gt;
+  &lt;li&gt;분석을 통해 가치가 창출될 수 있는 적절한 활용 방안과 유즈케이스 탐색이 필요&lt;/li&gt;
+  &lt;li&gt;분석 수행시 발생하는 장애 요소들에 대한 사전 계획 수립이 필요&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="ADSP" /><category term="자격증" /><summary type="html">ADSP 자격증 공부 두 번째 글,</summary></entry><entry><title type="html">[ADSP]1. ADSP 1과목 요약 정리</title><link href="http://localhost:4000/adsp-01/" rel="alternate" type="text/html" title="[ADSP]1. ADSP 1과목 요약 정리" /><published>2020-08-18T00:00:00+09:00</published><updated>2020-08-18T00:00:00+09:00</updated><id>http://localhost:4000/adsp-01</id><content type="html" xml:base="http://localhost:4000/adsp-01/">&lt;p&gt;ADSP 자격증 공부 첫 번째 글,&lt;/p&gt;
 
 &lt;hr /&gt;
 
