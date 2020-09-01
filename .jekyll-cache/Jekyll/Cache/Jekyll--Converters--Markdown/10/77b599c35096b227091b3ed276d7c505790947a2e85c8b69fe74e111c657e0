@@ -1,0 +1,65 @@
+I"�	<p>알고리즘 BinarySearch 정리</p>
+
+<hr />
+
+<h2 id="코딩-테스트를-위한-알고리즘-정리글">코딩 테스트를 위한 알고리즘 정리글</h2>
+
+<h3 id="binary-search">Binary Search</h3>
+
+<dl>
+  <dt>사용 시점</dt>
+  <dd>시간이 오래걸리는 문제, 효율성 해결<br /> 이분 탐색하여 문제를 풀 수 있을 경우 사용
+<br /></dd>
+</dl>
+
+<h4 id="binary-search-기본-사용법">Binary Search 기본 사용법</h4>
+<p><mark>일반적으로 이렇게 했고, 문제에 따라서 유동적으로 적용해야함</mark></p>
+
+<table>
+<tr><th><b>min값</b></th><td>0 또는 구할 수 있는 최소값(이것보다 더 적게는 안나온다 하는 값)</td></tr>
+<tr><th><b>max값</b></th><td>해당 타입의 최대값(Integer.MAX_VALUE 등) 혹은 구할 수 있는 최대값</td></tr>
+<tr><th><b>min값</b></th><td>(max+min)/2</td></tr>
+
+<tr><th><b>while 문 조건식</b></th><td>min &lt;= max</td></tr>
+<tr><th><b>while 문 내부 반복문</b></th><td> <li> mid값 케이스가 성공하면 max=mid-1</li>
+  <li>mid값 케이스가 실패하면 min=mid+1</li></td></tr>
+<tr><th><b>return</b></th><td>대부분 min값</td></tr>
+</table>
+<p><br /></p>
+
+<h4 id="programmers-이분탐색-입국-심사-링크">Programmers 이분탐색: 입국 심사 <a href="https://programmers.co.kr/learn/courses/30/lessons/43238#">링크</a></h4>
+
+<table>
+
+<tr><th rowspan="2"><b>입력값</b></th><td>n</td><td>입국심사를 기다리는 사람</td></tr>
+<tr><td>times</td><td>심사관이 한 사람을 검사하는데 걸리는 시간</td></tr>
+<tr><th><b>출력값</b></th><td>long</td><td>모든 사람이 심사를 받는데 걸리는 시간</td></tr>
+</table>
+
+<dl>
+  <dt>min값</dt>
+  <dd>0</dd>
+  <dt>max값</dt>
+  <dd>(times 배열 중 가장 큰 값) × n</dd>
+</dl>
+
+<h5 id="접근-방향">접근 방향</h5>
+
+<ul>
+  <li>max값일때 항상 성공 → mid일 때에도 성공?</li>
+  <li>mid일 때 성공(&gt;=n) → mid보다 작을때에도 성공? → max = half-1</li>
+  <li>mid일 때 실패(&lt;n) → mid보다 커야함 → min = mid+1</li>
+</ul>
+
+<h5 id="생각할-점">생각할 점</h5>
+
+<h6 id="성공실패-구분-포인트">성공/실패 구분 포인트</h6>
+<ul>
+  <li>times[i]/mid → i번째 입국 심사관이 mid시간동안 처리할 수 있는 사람의 수와 n 비교</li>
+</ul>
+
+<h6 id="생각할-점-1">생각할 점</h6>
+<ul>
+  <li>max값이 long범위보다 클 수 있음 → BigInteger 사용</li>
+</ul>
+:ET

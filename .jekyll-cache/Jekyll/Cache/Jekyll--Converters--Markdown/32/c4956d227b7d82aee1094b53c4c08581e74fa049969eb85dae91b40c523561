@@ -1,0 +1,33 @@
+I"0<p>알고리즘 BinarySearch 정리</p>
+
+<hr />
+
+<h2 id="코딩-테스트를-위한-알고리즘-정리글">코딩 테스트를 위한 알고리즘 정리글</h2>
+
+<h3 id="binary-search">Binary Search</h3>
+
+<dl>
+  <dt>사용 시점</dt>
+  <dd>시간이 오래걸리는 문제, 효율성 해결<br /> 이분 탐색하여 문제를 풀 수 있을 경우 사용</dd>
+</dl>
+
+<h4 id="binary-search-기본-사용법">Binary Search 기본 사용법</h4>
+
+<p>max값과 min값을 설정한다. mid값을 (max+min)/2로 두고 while문 반복.<br /></p>
+
+<dl>
+  <dt>while 문 조건식</dt>
+  <dd>min &lt;= max</dd>
+  <dt>while 문 내부 반복문</dt>
+  <dd>
+    <li> mid값 케이스가 성공하면 max=mid-1</li>
+    <li>mid값 케이스가 실패하면 min=mid+1</li>
+  </dd>
+</dl>
+
+<p>이때 min값은 0 또는 구할 수 있는 최소값(이것보다 더 적게는 안나온다 하는 값)<br />
+max값은 해당 타입의 최대값(Integer.MAX_VALUE 등) 혹은 구할 수 있는 최대값으로 설정한다.</p>
+
+<p><br /><br />
+리턴은 대개 min값으로 했다.</p>
+:ET

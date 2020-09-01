@@ -1,4 +1,67 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-08-23T19:06:16+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">HyoJin’s Blog</title><subtitle>Computer Science 개념 정리</subtitle><entry><title type="html">[ADSP]2. ADSP 2과목 요약 정리</title><link href="http://localhost:4000/adsp-02/" rel="alternate" type="text/html" title="[ADSP]2. ADSP 2과목 요약 정리" /><published>2020-08-22T00:00:00+09:00</published><updated>2020-08-22T00:00:00+09:00</updated><id>http://localhost:4000/adsp-02</id><content type="html" xml:base="http://localhost:4000/adsp-02/">&lt;p&gt;ADSP 자격증 공부 두 번째 글,&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-09-02T00:06:59+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">HyoJin’s Blog</title><subtitle>Computer Science 개념 정리</subtitle><entry><title type="html">[ALGO] BinarySearch 정리</title><link href="http://localhost:4000/algorithm-01/" rel="alternate" type="text/html" title="[ALGO] BinarySearch 정리" /><published>2020-09-01T00:00:00+09:00</published><updated>2020-09-01T00:00:00+09:00</updated><id>http://localhost:4000/algorithm-01</id><content type="html" xml:base="http://localhost:4000/algorithm-01/">&lt;p&gt;알고리즘 BinarySearch 정리&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;코딩-테스트를-위한-알고리즘-정리글&quot;&gt;코딩 테스트를 위한 알고리즘 정리글&lt;/h2&gt;
+
+&lt;h3 id=&quot;binary-search&quot;&gt;Binary Search&lt;/h3&gt;
+
+&lt;dl&gt;
+  &lt;dt&gt;사용 시점&lt;/dt&gt;
+  &lt;dd&gt;시간이 오래걸리는 문제, 효율성 해결&lt;br /&gt; 이분 탐색하여 문제를 풀 수 있을 경우 사용
+&lt;br /&gt;&lt;/dd&gt;
+&lt;/dl&gt;
+
+&lt;h4 id=&quot;binary-search-기본-사용법&quot;&gt;Binary Search 기본 사용법&lt;/h4&gt;
+&lt;p&gt;&lt;mark&gt;일반적으로 이렇게 했고, 문제에 따라서 유동적으로 적용해야함&lt;/mark&gt;&lt;/p&gt;
+
+&lt;table&gt;
+&lt;tr&gt;&lt;th&gt;&lt;b&gt;min값&lt;/b&gt;&lt;/th&gt;&lt;td&gt;0 또는 구할 수 있는 최소값(이것보다 더 적게는 안나온다 하는 값)&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;&lt;b&gt;max값&lt;/b&gt;&lt;/th&gt;&lt;td&gt;해당 타입의 최대값(Integer.MAX_VALUE 등) 혹은 구할 수 있는 최대값&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;&lt;b&gt;min값&lt;/b&gt;&lt;/th&gt;&lt;td&gt;(max+min)/2&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;th&gt;&lt;b&gt;while 문 조건식&lt;/b&gt;&lt;/th&gt;&lt;td&gt;min &amp;lt;= max&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;&lt;b&gt;while 문 내부 반복문&lt;/b&gt;&lt;/th&gt;&lt;td&gt; &lt;li&gt; mid값 케이스가 성공하면 max=mid-1&lt;/li&gt;
+  &lt;li&gt;mid값 케이스가 실패하면 min=mid+1&lt;/li&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;&lt;b&gt;return&lt;/b&gt;&lt;/th&gt;&lt;td&gt;대부분 min값&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;programmers-이분탐색-입국-심사-링크&quot;&gt;Programmers 이분탐색: 입국 심사 &lt;a href=&quot;https://programmers.co.kr/learn/courses/30/lessons/43238#&quot;&gt;링크&lt;/a&gt;&lt;/h4&gt;
+
+&lt;table&gt;
+
+&lt;tr&gt;&lt;th rowspan=&quot;2&quot;&gt;&lt;b&gt;입력값&lt;/b&gt;&lt;/th&gt;&lt;td&gt;n&lt;/td&gt;&lt;td&gt;입국심사를 기다리는 사람&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;times&lt;/td&gt;&lt;td&gt;심사관이 한 사람을 검사하는데 걸리는 시간&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;&lt;b&gt;출력값&lt;/b&gt;&lt;/th&gt;&lt;td&gt;long&lt;/td&gt;&lt;td&gt;모든 사람이 심사를 받는데 걸리는 시간&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;dl&gt;
+  &lt;dt&gt;min값&lt;/dt&gt;
+  &lt;dd&gt;0&lt;/dd&gt;
+  &lt;dt&gt;max값&lt;/dt&gt;
+  &lt;dd&gt;(times 배열 중 가장 큰 값) × n&lt;/dd&gt;
+&lt;/dl&gt;
+
+&lt;h5 id=&quot;접근-방향&quot;&gt;접근 방향&lt;/h5&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;max값일때 항상 성공 → mid일 때에도 성공?&lt;/li&gt;
+  &lt;li&gt;mid일 때 성공(&amp;gt;=n) → mid보다 작을때에도 성공? → max = half-1&lt;/li&gt;
+  &lt;li&gt;mid일 때 실패(&amp;lt;n) → mid보다 커야함 → min = mid+1&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;생각할-점&quot;&gt;생각할 점&lt;/h5&gt;
+
+&lt;h6 id=&quot;성공실패-구분-포인트&quot;&gt;성공/실패 구분 포인트&lt;/h6&gt;
+&lt;ul&gt;
+  &lt;li&gt;times[i]/mid → i번째 입국 심사관이 mid시간동안 처리할 수 있는 사람의 수와 n 비교&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h6 id=&quot;생각할-점-1&quot;&gt;생각할 점&lt;/h6&gt;
+&lt;ul&gt;
+  &lt;li&gt;max값이 long범위보다 클 수 있음 → BigInteger 사용&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="BinarySearch" /><category term="Programmers" /><category term="Algorithm" /><summary type="html">알고리즘 BinarySearch 정리</summary></entry><entry><title type="html">[ADSP]2. ADSP 2과목 요약 정리</title><link href="http://localhost:4000/adsp-02/" rel="alternate" type="text/html" title="[ADSP]2. ADSP 2과목 요약 정리" /><published>2020-08-22T00:00:00+09:00</published><updated>2020-08-22T00:00:00+09:00</updated><id>http://localhost:4000/adsp-02</id><content type="html" xml:base="http://localhost:4000/adsp-02/">&lt;p&gt;ADSP 자격증 공부 두 번째 글,&lt;/p&gt;
 
 &lt;hr /&gt;
 
