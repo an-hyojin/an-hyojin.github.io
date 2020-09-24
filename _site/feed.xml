@@ -1,4 +1,36 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-09-02T00:06:59+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">HyoJin’s Blog</title><subtitle>Computer Science 개념 정리</subtitle><entry><title type="html">[ALGO] BinarySearch 정리</title><link href="http://localhost:4000/algorithm-01/" rel="alternate" type="text/html" title="[ALGO] BinarySearch 정리" /><published>2020-09-01T00:00:00+09:00</published><updated>2020-09-01T00:00:00+09:00</updated><id>http://localhost:4000/algorithm-01</id><content type="html" xml:base="http://localhost:4000/algorithm-01/">&lt;p&gt;알고리즘 BinarySearch 정리&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-09-24T17:16:18+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">HyoJin’s Blog</title><subtitle>Computer Science 개념 정리</subtitle><entry><title type="html">[ALGO] BFS(Breadth-First Search) 정리</title><link href="http://localhost:4000/algorithm-02/" rel="alternate" type="text/html" title="[ALGO] BFS(Breadth-First Search) 정리" /><published>2020-09-24T00:00:00+09:00</published><updated>2020-09-24T00:00:00+09:00</updated><id>http://localhost:4000/algorithm-02</id><content type="html" xml:base="http://localhost:4000/algorithm-02/">&lt;p&gt;알고리즘 BFS 정리&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;코딩-테스트를-위한-알고리즘-정리글&quot;&gt;코딩 테스트를 위한 알고리즘 정리글&lt;/h2&gt;
+
+&lt;h3 id=&quot;breadth-first-search&quot;&gt;Breadth-First Search&lt;/h3&gt;
+
+&lt;dl&gt;
+  &lt;dt&gt;사용 시점&lt;/dt&gt;
+  &lt;dd&gt;미로 관련한 문제 때 쓰는 듯함(배열 관련 해결 방향) &lt;br /&gt; (집합은 DFS)
+&lt;br /&gt;&lt;/dd&gt;
+&lt;/dl&gt;
+
+&lt;h4 id=&quot;breadth-first-search-기본-사용법&quot;&gt;Breadth-First Search 기본 사용법&lt;/h4&gt;
+
+&lt;p&gt;&lt;mark&gt;일반적으로 이렇게 했고, 문제에 따라서 유동적으로 적용해야함&lt;/mark&gt;&lt;/p&gt;
+
+&lt;h5 id=&quot;접근-방향&quot;&gt;접근 방향&lt;/h5&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/20200924-algo-02/bfs-tree.png&quot; alt=&quot;트리&quot; style=&quot;width:auto;height:300px;&quot; class=&quot;center-image&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;DFS는 배열에서 n번째 세팅하고 n+1가는 느낌이라면 BFS는 너비 우선탐색이라 Queue 써야함&lt;/li&gt;
+  &lt;li&gt;DFS: 1-2-4-2-5-1-3-6-7(스택)&lt;/li&gt;
+  &lt;li&gt;BFS: 1-2-3-4-5-6-7(큐)&lt;/li&gt;
+  &lt;li&gt;루트 노드 넣고 Queue가 isEmpty일때까지 반복.&lt;/li&gt;
+  &lt;li&gt;루트 노드 방문 후 자식 노드 추가&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;의사코드&quot;&gt;의사코드&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/20200924-algo-02/pseudocode.png&quot; alt=&quot;수도코드&quot; style=&quot;width:auto;height:300px;&quot; class=&quot;center-image&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="BFS" /><category term="Algorithm" /><summary type="html">알고리즘 BFS 정리</summary></entry><entry><title type="html">[ALGO] BinarySearch 정리</title><link href="http://localhost:4000/algorithm-01/" rel="alternate" type="text/html" title="[ALGO] BinarySearch 정리" /><published>2020-09-01T00:00:00+09:00</published><updated>2020-09-01T00:00:00+09:00</updated><id>http://localhost:4000/algorithm-01</id><content type="html" xml:base="http://localhost:4000/algorithm-01/">&lt;p&gt;알고리즘 BinarySearch 정리&lt;/p&gt;
 
 &lt;hr /&gt;
 

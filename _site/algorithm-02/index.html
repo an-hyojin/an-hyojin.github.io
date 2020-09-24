@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-  <title>[ALGO] BinarySearch 정리 – HyoJin's Blog – Computer Science 개념 정리</title>
+  <title>[ALGO] BFS(Breadth-First Search) 정리 – HyoJin's Blog – Computer Science 개념 정리</title>
 
       <meta charset="utf-8" />
     <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
@@ -9,16 +9,16 @@
     <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
 
     
-    <meta name="description" content="알고리즘 BinarySearch 정리
+    <meta name="description" content="알고리즘 BFS 정리
 " />
-    <meta property="og:description" content="알고리즘 BinarySearch 정리
+    <meta property="og:description" content="알고리즘 BFS 정리
 " />
     
     <meta name="author" content="HyoJin's Blog" />
 
     
-    <meta property="og:title" content="[ALGO] BinarySearch 정리" />
-    <meta property="twitter:title" content="[ALGO] BinarySearch 정리" />
+    <meta property="og:title" content="[ALGO] BFS(Breadth-First Search) 정리" />
+    <meta property="twitter:title" content="[ALGO] BFS(Breadth-First Search) 정리" />
     
   <!-- Async font loading -->
 <script>
@@ -83,24 +83,18 @@
 
     <div id="main" role="main" class="container">
       <article class="post">
-  <h1>[ALGO] BinarySearch 정리</h1>
+  <h1>[ALGO] BFS(Breadth-First Search) 정리</h1>
 
   <div>
     <span class="date">
-      2020-09-01
+      2020-09-24
     </span>
 
     <ul class="tag">
       
       <li>
-        <a href="http://localhost:4000/tags#BinarySearch">
-          BinarySearch
-        </a>
-      </li>
-      
-      <li>
-        <a href="http://localhost:4000/tags#Programmers">
-          Programmers
+        <a href="http://localhost:4000/tags#BFS">
+          BFS
         </a>
       </li>
       
@@ -114,87 +108,50 @@
   </div>
 
   <div class="entry">
-    <p>알고리즘 BinarySearch 정리</p>
+    <p>알고리즘 BFS 정리</p>
 
 <hr />
 
 <h2 id="코딩-테스트를-위한-알고리즘-정리글">코딩 테스트를 위한 알고리즘 정리글</h2>
 
-<h3 id="binary-search">Binary Search</h3>
+<h3 id="breadth-first-search">Breadth-First Search</h3>
 
 <dl>
   <dt>사용 시점</dt>
-  <dd>시간이 오래걸리는 문제, 효율성 해결<br /> 이분 탐색하여 문제를 풀 수 있을 경우 사용
+  <dd>미로 관련한 문제 때 쓰는 듯함(배열 관련 해결 방향) <br /> (집합은 DFS)
 <br /></dd>
 </dl>
 
-<h4 id="binary-search-기본-사용법">Binary Search 기본 사용법</h4>
+<h4 id="breadth-first-search-기본-사용법">Breadth-First Search 기본 사용법</h4>
+
 <p><mark>일반적으로 이렇게 했고, 문제에 따라서 유동적으로 적용해야함</mark></p>
-
-<table>
-<tr><th><b>min값</b></th><td>0 또는 구할 수 있는 최소값(이것보다 더 적게는 안나온다 하는 값)</td></tr>
-<tr><th><b>max값</b></th><td>해당 타입의 최대값(Integer.MAX_VALUE 등) 혹은 구할 수 있는 최대값</td></tr>
-<tr><th><b>min값</b></th><td>(max+min)/2</td></tr>
-
-<tr><th><b>while 문 조건식</b></th><td>min &lt;= max</td></tr>
-<tr><th><b>while 문 내부 반복문</b></th><td> <li> mid값 케이스가 성공하면 max=mid-1</li>
-  <li>mid값 케이스가 실패하면 min=mid+1</li></td></tr>
-<tr><th><b>return</b></th><td>대부분 min값</td></tr>
-</table>
-<p><br /></p>
-
-<h4 id="programmers-이분탐색-입국-심사-링크">Programmers 이분탐색: 입국 심사 <a href="https://programmers.co.kr/learn/courses/30/lessons/43238#">링크</a></h4>
-
-<table>
-
-<tr><th rowspan="2"><b>입력값</b></th><td>n</td><td>입국심사를 기다리는 사람</td></tr>
-<tr><td>times</td><td>심사관이 한 사람을 검사하는데 걸리는 시간</td></tr>
-<tr><th><b>출력값</b></th><td>long</td><td>모든 사람이 심사를 받는데 걸리는 시간</td></tr>
-</table>
-
-<dl>
-  <dt>min값</dt>
-  <dd>0</dd>
-  <dt>max값</dt>
-  <dd>(times 배열 중 가장 큰 값) × n</dd>
-</dl>
 
 <h5 id="접근-방향">접근 방향</h5>
 
+<p><img src="../images/20200924-algo-02/bfs-tree.png" alt="트리" style="width:auto;height:300px;" class="center-image" /></p>
+
 <ul>
-  <li>max값일때 항상 성공 → mid일 때에도 성공?</li>
-  <li>mid일 때 성공(&gt;=n) → mid보다 작을때에도 성공? → max = half-1</li>
-  <li>mid일 때 실패(&lt;n) → mid보다 커야함 → min = mid+1</li>
+  <li>DFS는 배열에서 n번째 세팅하고 n+1가는 느낌이라면 BFS는 너비 우선탐색이라 Queue 써야함</li>
+  <li>DFS: 1-2-4-2-5-1-3-6-7(스택)</li>
+  <li>BFS: 1-2-3-4-5-6-7(큐)</li>
+  <li>루트 노드 넣고 Queue가 isEmpty일때까지 반복.</li>
+  <li>루트 노드 방문 후 자식 노드 추가</li>
 </ul>
 
-<h5 id="생각할-점">생각할 점</h5>
+<h4 id="의사코드">의사코드</h4>
 
-<h6 id="성공실패-구분-포인트">성공/실패 구분 포인트</h6>
-<ul>
-  <li>times[i]/mid → i번째 입국 심사관이 mid시간동안 처리할 수 있는 사람의 수와 n 비교</li>
-</ul>
-
-<h6 id="생각할-점-1">생각할 점</h6>
-<ul>
-  <li>max값이 long범위보다 클 수 있음 → BigInteger 사용</li>
-</ul>
+<p><img src="../images/20200924-algo-02/pseudocode.png" alt="수도코드" style="width:auto;height:300px;" class="center-image" /></p>
 
   </div>
 
   <div class="pagination">
     
       <span class="prev" >
-          <a href="http://localhost:4000/adsp-02/">
-            &#xE000; [ADSP]2. ADSP 2과목 요약 정리
+          <a href="http://localhost:4000/algorithm-01/">
+            &#xE000; [ALGO] BinarySearch 정리
           </a>
       </span>
     
-    
-      <span class="next" >
-          <a href="http://localhost:4000/algorithm-02/">
-            [ALGO] BFS(Breadth-First Search) 정리 &#xE001;
-          </a>
-      </span>
     
   </div>
 
