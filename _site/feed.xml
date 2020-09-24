@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-09-24T17:16:18+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">HyoJin’s Blog</title><subtitle>Computer Science 개념 정리</subtitle><entry><title type="html">[ALGO] BFS(Breadth-First Search) 정리</title><link href="http://localhost:4000/algorithm-02/" rel="alternate" type="text/html" title="[ALGO] BFS(Breadth-First Search) 정리" /><published>2020-09-24T00:00:00+09:00</published><updated>2020-09-24T00:00:00+09:00</updated><id>http://localhost:4000/algorithm-02</id><content type="html" xml:base="http://localhost:4000/algorithm-02/">&lt;p&gt;알고리즘 BFS 정리&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-09-24T18:12:34+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">HyoJin’s Blog</title><subtitle>Computer Science 개념 정리</subtitle><entry><title type="html">[ALGO] BFS(Breadth-First Search) 정리</title><link href="http://localhost:4000/algorithm-02/" rel="alternate" type="text/html" title="[ALGO] BFS(Breadth-First Search) 정리" /><published>2020-09-24T00:00:00+09:00</published><updated>2020-09-24T00:00:00+09:00</updated><id>http://localhost:4000/algorithm-02</id><content type="html" xml:base="http://localhost:4000/algorithm-02/">&lt;p&gt;알고리즘 BFS 정리&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -22,7 +22,7 @@
 
 &lt;ul&gt;
   &lt;li&gt;DFS는 배열에서 n번째 세팅하고 n+1가는 느낌이라면 BFS는 너비 우선탐색이라 Queue 써야함&lt;/li&gt;
-  &lt;li&gt;DFS: 1-2-4-2-5-1-3-6-7(스택)&lt;/li&gt;
+  &lt;li&gt;DFS: 1-2-4-2-5-1-3-6-3-7(스택)&lt;/li&gt;
   &lt;li&gt;BFS: 1-2-3-4-5-6-7(큐)&lt;/li&gt;
   &lt;li&gt;루트 노드 넣고 Queue가 isEmpty일때까지 반복.&lt;/li&gt;
   &lt;li&gt;루트 노드 방문 후 자식 노드 추가&lt;/li&gt;
@@ -30,7 +30,29 @@
 
 &lt;h4 id=&quot;의사코드&quot;&gt;의사코드&lt;/h4&gt;
 
-&lt;p&gt;&lt;img src=&quot;../images/20200924-algo-02/pseudocode.png&quot; alt=&quot;수도코드&quot; style=&quot;width:auto;height:300px;&quot; class=&quot;center-image&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="BFS" /><category term="Algorithm" /><summary type="html">알고리즘 BFS 정리</summary></entry><entry><title type="html">[ALGO] BinarySearch 정리</title><link href="http://localhost:4000/algorithm-01/" rel="alternate" type="text/html" title="[ALGO] BinarySearch 정리" /><published>2020-09-01T00:00:00+09:00</published><updated>2020-09-01T00:00:00+09:00</updated><id>http://localhost:4000/algorithm-01</id><content type="html" xml:base="http://localhost:4000/algorithm-01/">&lt;p&gt;알고리즘 BinarySearch 정리&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;../images/20200924-algo-02/pseudocode.png&quot; alt=&quot;수도코드&quot; style=&quot;width:auto;height:300px;&quot; class=&quot;center-image&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="BFS" /><category term="Algorithm" /><summary type="html">알고리즘 BFS 정리</summary></entry><entry><title type="html">[ALGO] Union-Find 정리</title><link href="http://localhost:4000/algorithm-03/" rel="alternate" type="text/html" title="[ALGO] Union-Find 정리" /><published>2020-09-24T00:00:00+09:00</published><updated>2020-09-24T00:00:00+09:00</updated><id>http://localhost:4000/algorithm-03</id><content type="html" xml:base="http://localhost:4000/algorithm-03/">&lt;p&gt;알고리즘 Union-Find 정리&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;코딩-테스트를-위한-알고리즘-정리글&quot;&gt;코딩 테스트를 위한 알고리즘 정리글&lt;/h2&gt;
+
+&lt;h3 id=&quot;union-find&quot;&gt;Union-Find&lt;/h3&gt;
+
+&lt;dl&gt;
+  &lt;dt&gt;사용 시점&lt;/dt&gt;
+  &lt;dd&gt;집합관련 문제 - 같은 집합 찾기,,,?&lt;/dd&gt;
+&lt;/dl&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/20200924-algo-03/uf-tree.png&quot; alt=&quot;트리&quot; style=&quot;width:auto;height:250px;&quot; class=&quot;center-image&quot; /&gt;&lt;/p&gt;
+&lt;div style=&quot;text-align:center&quot;&gt;트리 모양일 때,&lt;/div&gt;
+&lt;p&gt;&lt;img src=&quot;../images/20200924-algo-03/parent-array.png&quot; alt=&quot;부모 배열&quot; style=&quot;width:350px;height:auto;&quot; class=&quot;center-image&quot; /&gt;&lt;/p&gt;
+&lt;div style=&quot;text-align:center&quot;&gt;부모 초기화는 이렇게&lt;/div&gt;
+
+&lt;h4 id=&quot;의사코드&quot;&gt;의사코드&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/20200924-algo-03/find-pseudo.png&quot; alt=&quot;파인드 수도코드&quot; style=&quot;width:auto;height:250px;&quot; class=&quot;center-image&quot; /&gt;&lt;/p&gt;
+&lt;div style=&quot;text-align:center&quot;&gt;스캔하면서 모든 노드를 루트의 자식노드로 만든다&lt;/div&gt;
+&lt;p&gt;&lt;img src=&quot;../images/20200924-algo-03/union-pseudo.png&quot; alt=&quot;유니온 수도코드&quot; style=&quot;width:auto;height:250px;&quot; class=&quot;center-image&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="Union-Find" /><category term="Algorithm" /><summary type="html">알고리즘 Union-Find 정리</summary></entry><entry><title type="html">[ALGO] BinarySearch 정리</title><link href="http://localhost:4000/algorithm-01/" rel="alternate" type="text/html" title="[ALGO] BinarySearch 정리" /><published>2020-09-01T00:00:00+09:00</published><updated>2020-09-01T00:00:00+09:00</updated><id>http://localhost:4000/algorithm-01</id><content type="html" xml:base="http://localhost:4000/algorithm-01/">&lt;p&gt;알고리즘 BinarySearch 정리&lt;/p&gt;
 
 &lt;hr /&gt;
 

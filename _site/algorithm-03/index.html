@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-  <title>Archive – HyoJin's Blog – Computer Science 개념 정리</title>
+  <title>[ALGO] Union-Find 정리 – HyoJin's Blog – Computer Science 개념 정리</title>
 
       <meta charset="utf-8" />
     <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
@@ -9,14 +9,16 @@
     <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
 
     
-    <meta name="description" content="Computer Science 개념 정리">
-    <meta property="og:description" content="Computer Science 개념 정리" />
+    <meta name="description" content="알고리즘 Union-Find 정리
+" />
+    <meta property="og:description" content="알고리즘 Union-Find 정리
+" />
     
     <meta name="author" content="HyoJin's Blog" />
 
     
-    <meta property="og:title" content="Archive" />
-    <meta property="twitter:title" content="Archive" />
+    <meta property="og:title" content="[ALGO] Union-Find 정리" />
+    <meta property="twitter:title" content="[ALGO] Union-Find 정리" />
     
   <!-- Async font loading -->
 <script>
@@ -80,123 +82,70 @@
 </div>
 
     <div id="main" role="main" class="container">
-      <article class="page">
+      <article class="post">
+  <h1>[ALGO] Union-Find 정리</h1>
 
-  <h1>Archive</h1>
+  <div>
+    <span class="date">
+      2020-09-24
+    </span>
+
+    <ul class="tag">
+      
+      <li>
+        <a href="http://localhost:4000/tags#Union-Find">
+          Union-Find
+        </a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:4000/tags#Algorithm">
+          Algorithm
+        </a>
+      </li>
+      
+    </ul>
+  </div>
 
   <div class="entry">
-    
+    <p>알고리즘 Union-Find 정리</p>
 
-<ul class="archive">
-  
-    
-      <h2>2020</h2>
-    
+<hr />
 
-    <li>
-      
-      <a href="/algorithm-03/">
-      
-        [ALGO] Union-Find 정리
-      </a>
-      <time>2020-09-24</time>
-    </li>
-  
-    
-      
-      
-      
-    
+<h2 id="코딩-테스트를-위한-알고리즘-정리글">코딩 테스트를 위한 알고리즘 정리글</h2>
 
-    <li>
-      
-      <a href="/algorithm-02/">
-      
-        [ALGO] BFS(Breadth-First Search) 정리
-      </a>
-      <time>2020-09-24</time>
-    </li>
-  
-    
-      
-      
-      
-    
+<h3 id="union-find">Union-Find</h3>
 
-    <li>
-      
-      <a href="/algorithm-01/">
-      
-        [ALGO] BinarySearch 정리
-      </a>
-      <time>2020-09-01</time>
-    </li>
-  
-    
-      
-      
-      
-    
+<dl>
+  <dt>사용 시점</dt>
+  <dd>집합관련 문제 - 같은 집합 찾기,,,?</dd>
+</dl>
 
-    <li>
-      
-      <a href="/adsp-02/">
-      
-        [ADSP]2. ADSP 2과목 요약 정리
-      </a>
-      <time>2020-08-22</time>
-    </li>
-  
-    
-      
-      
-      
-    
+<p><img src="../images/20200924-algo-03/uf-tree.png" alt="트리" style="width:auto;height:250px;" class="center-image" /></p>
+<div style="text-align:center">트리 모양일 때,</div>
+<p><img src="../images/20200924-algo-03/parent-array.png" alt="부모 배열" style="width:350px;height:auto;" class="center-image" /></p>
+<div style="text-align:center">부모 초기화는 이렇게</div>
 
-    <li>
-      
-      <a href="/adsp-01/">
-      
-        [ADSP]1. ADSP 1과목 요약 정리
-      </a>
-      <time>2020-08-18</time>
-    </li>
-  
-    
-      
-      
-      
-    
+<h4 id="의사코드">의사코드</h4>
 
-    <li>
-      
-      <a href="/operating-system-01/">
-      
-        [OS]1. Operating System Overview
-      </a>
-      <time>2020-08-12</time>
-    </li>
-  
-    
-      
-      
-      
-        <h2>2016</h2>
-      
-    
-
-    <li>
-      
-      <a href="/style-test-ko/">
-      
-        A Full and Comprehensive Style Test(Korean ver.)
-      </a>
-      <time>2016-08-14</time>
-    </li>
-  
-</ul>
+<p><img src="../images/20200924-algo-03/find-pseudo.png" alt="파인드 수도코드" style="width:auto;height:250px;" class="center-image" /></p>
+<div style="text-align:center">스캔하면서 모든 노드를 루트의 자식노드로 만든다</div>
+<p><img src="../images/20200924-algo-03/union-pseudo.png" alt="유니온 수도코드" style="width:auto;height:250px;" class="center-image" /></p>
 
   </div>
+
+  <div class="pagination">
+    
+      <span class="prev" >
+          <a href="http://localhost:4000/algorithm-02/">
+            &#xE000; [ALGO] BFS(Breadth-First Search) 정리
+          </a>
+      </span>
+    
+    
+  </div>
+
+  
 </article>
 
     </div>
