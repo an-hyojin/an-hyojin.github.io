@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-  <title>[ALGO] Union-Find 정리 – HyoJin's Blog – Computer Science 개념 정리</title>
+  <title>[ALGO] Dijkstra 알고리즘 – HyoJin's Blog – Computer Science 개념 정리</title>
 
       <meta charset="utf-8" />
     <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
@@ -9,16 +9,16 @@
     <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
 
     
-    <meta name="description" content="알고리즘 Union-Find 정리
+    <meta name="description" content="알고리즘 Dijkstra 정리
 " />
-    <meta property="og:description" content="알고리즘 Union-Find 정리
+    <meta property="og:description" content="알고리즘 Dijkstra 정리
 " />
     
     <meta name="author" content="HyoJin's Blog" />
 
     
-    <meta property="og:title" content="[ALGO] Union-Find 정리" />
-    <meta property="twitter:title" content="[ALGO] Union-Find 정리" />
+    <meta property="og:title" content="[ALGO] Dijkstra 알고리즘" />
+    <meta property="twitter:title" content="[ALGO] Dijkstra 알고리즘" />
     
   <!-- Async font loading -->
 <script>
@@ -83,18 +83,18 @@
 
     <div id="main" role="main" class="container">
       <article class="post">
-  <h1>[ALGO] Union-Find 정리</h1>
+  <h1>[ALGO] Dijkstra 알고리즘</h1>
 
   <div>
     <span class="date">
-      2020-09-24
+      2020-09-25
     </span>
 
     <ul class="tag">
       
       <li>
-        <a href="http://localhost:4000/tags#Union-Find">
-          Union-Find
+        <a href="http://localhost:4000/tags#Dijkstra">
+          Dijkstra
         </a>
       </li>
       
@@ -108,46 +108,47 @@
   </div>
 
   <div class="entry">
-    <p>알고리즘 Union-Find 정리</p>
+    <p>알고리즘 Dijkstra 정리</p>
 
 <hr />
 
 <h2 id="코딩-테스트를-위한-알고리즘-정리글">코딩 테스트를 위한 알고리즘 정리글</h2>
 
-<h3 id="union-find">Union-Find</h3>
+<h3 id="dijkstra">Dijkstra</h3>
 
 <dl>
   <dt>사용 시점</dt>
-  <dd>집합관련 문제 - 같은 집합 찾기,,,?</dd>
+  <dd>하나의 정점에서 다른 정점들까지의 최단거리 구하기</dd>
 </dl>
 
-<p><img src="../images/20200924-algo-03/uf-tree.png" alt="트리" style="width:auto;height:250px;" class="center-image" /></p>
-<div style="text-align:center">트리 모양일 때,</div>
-<p><img src="../images/20200924-algo-03/parent-array.png" alt="부모 배열" style="width:350px;height:auto;" class="center-image" /></p>
-<div style="text-align:center">부모 초기화는 이렇게</div>
+<p><img src="../images/20200924-algo-04/dijkstra-graph.png" alt="다익스트라 그래프" style="width:auto;height:250px;" class="center-image" /></p>
 
-<h4 id="의사코드">의사코드</h4>
+<ol>
+  <li>그래프가 있을 때, 시작 정점은 0으로 나머지는 INF로 초기화</li>
+  <li>가장 가까운 정점 s 선택(첫 번째: 시작 정점)</li>
+  <li>정점 x 거리 = Math.min(정점 x 거리, 정점 s 거리 + s-x 간 가중치)</li>
+  <li>업데이트 후, 그 다음으로 가까운 정점 선택</li>
+  <li>2-4 반복</li>
+</ol>
 
-<p><img src="../images/20200924-algo-03/find-pseudo.png" alt="파인드 수도코드" style="width:auto;height:250px;" class="center-image" /></p>
-<div style="text-align:center">스캔하면서 모든 노드를 루트의 자식노드로 만든다</div>
-<p><img src="../images/20200924-algo-03/union-pseudo.png" alt="유니온 수도코드" style="width:auto;height:250px;" class="center-image" /></p>
+<p>우선순위 큐로도 가능함(Priority Queue - 꺼내기: poll, 넣기: offer)</p>
+
+<ol>
+  <li>처음 정점 선택 후 정점과 연결된 노드들 queue에 넣음(거리와 INDEX 필요)</li>
+  <li>거리 배열에 거리 계산하여 넣음</li>
+  <li>이때, 업데이트 한 거리가 더 짧을 때 queue에 다시 넣어준다.</li>
+</ol>
 
   </div>
 
   <div class="pagination">
     
       <span class="prev" >
-          <a href="http://localhost:4000/algorithm-02/">
-            &#xE000; [ALGO] BFS(Breadth-First Search) 정리
+          <a href="http://localhost:4000/algorithm-03/">
+            &#xE000; [ALGO] Union-Find 정리
           </a>
       </span>
     
-    
-      <span class="next" >
-          <a href="http://localhost:4000/algorithm-04/">
-            [ALGO] Dijkstra 알고리즘 &#xE001;
-          </a>
-      </span>
     
   </div>
 
